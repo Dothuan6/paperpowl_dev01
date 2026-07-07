@@ -235,8 +235,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // React to open/close toggled by the existing cart handler
     new MutationObserver(sync).observe(wrap, { attributes: true, attributeFilter: ['class'] });
-    // Keep totals fresh on qty/remove changes
-    new MutationObserver(refresh).observe(dropdown, { childList: true, subtree: true });
+    // Keep totals fresh when items are added/removed (observe the list only,
+    // never the whole dropdown — refresh() writes into the summary and would loop)
+    const listEl = dropdown.querySelector('.cart-list');
+    if (listEl) new MutationObserver(refresh).observe(listEl, { childList: true });
     window.addEventListener('resize', sync);
     refresh();
   })();
