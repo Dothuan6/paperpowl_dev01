@@ -235,7 +235,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
 .btn-buy:active{transform:scale(.97);}
 
 /* ---------- Công nợ ---------- */
-.congno{background:#e8f1e8;}
+.congno{background:#EFE2D0;}
 .congno__inner{display:flex;align-items:center;gap:44px;flex-wrap:wrap;}
 .congno__img{flex:1;min-width:300px;text-align:center;}
 .congno__img img{max-width:440px;margin:0 auto;}
@@ -314,7 +314,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
 .greviews__foot .btn-buy{width:auto;padding:12px 30px;}
 
 /* ---------- Footer ---------- */
-.footer{background:#e8f1e8;color:#4a4a4a;padding-top:44px;font-size:13.5px;}
+.footer{background:#EFE2D0;color:#4a4a4a;padding-top:44px;font-size:13.5px;}
 .footer__grid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1.1fr;gap:30px;padding-bottom:34px;}
 .footer h4{color:#2b2b2b;font-size:16px;margin-bottom:16px;font-weight:700;}
 .footer p{margin-bottom:10px;line-height:1.7;}
@@ -1416,4 +1416,25 @@ body.drawer-lock .to-top{
   .pcard h3,.cart-item__name,.co-cart-item__name,
   .art-title,.blog__main h1,.policy__main h1,.section-title,
   .footer p,.footer a{overflow-wrap:break-word;}
+}
+
+/* ===================== MOBILE: centered footer + contact button position ===================== */
+@media (max-width:768px){
+  /* 1) Center all footer components */
+  .footer__grid{text-align:center;}
+  .footer__col{text-align:center;}
+  .footer h4{text-align:center;}
+  .footer__social{justify-content:center;}
+  .footer__hot{justify-content:center;}
+  .footer__col--hotline p{text-align:center;}
+  .footer__gov{align-self:center;}
+  .footer__col ul li{padding-left:0;}
+  .footer__col ul li::before{position:static;margin-right:6px;}
+  .footer__bottom{text-align:center;}
+
+  /* 2) Contact button back to vertical middle of the screen (like desktop),
+        so its popup menu opens with room and never gets clipped at the bottom */
+  .float-btns{top:50%;bottom:auto;transform:translateY(-50%);right:12px;}
+  /* Keep the contact popup within the viewport */
+  .contact-menu{max-width:calc(100vw - 24px);}
 }
