@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thanh toán | Paperbowl</title>
+  <meta name="description" content="Thanh toán đơn hàng - Paperbowl." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- minimal header -->
+  <header class="co-header">
+    <div class="container"><a href="index.html"><img src="assets/Logo.jpg" alt="Paperbowl" /></a></div>
+  </header>
+
+  <section class="co-page">
+    <div class="container co-layout">
+
+      <!-- ============ LEFT ============ -->
+      <div class="co-left">
+        <div class="co-box co-login">
+          <span>Đăng nhập để mua hàng tiện lợi và nhận nhiều ưu đãi hơn nữa</span>
+          <a href="login.html">Đăng nhập</a>
+        </div>
+
+        <div class="co-box">
+          <h3>Thông tin giao hàng</h3>
+          <div class="co-tabs">
+            <div class="co-tab active">🚚 Giao tận nơi</div>
+            <div class="co-tab">🏬 Nhận tại cửa hàng</div>
+          </div>
+          <div class="co-field"><input type="text" placeholder="Nhập họ và tên" /></div>
+          <div class="co-field"><input type="tel" placeholder="Nhập số điện thoại" /><span class="flag">🇻🇳</span></div>
+          <div class="co-field"><input type="email" placeholder="Nhập email (không bắt buộc)" /></div>
+          <div class="co-field"><label>Quốc gia</label><input type="text" value="Vietnam" readonly /></div>
+          <div class="co-field"><input type="text" placeholder="Địa chỉ, tên đường" /></div>
+          <div class="co-field"><input type="text" placeholder="Tỉnh/TP, Quận/Huyện, Phường/Xã" /></div>
+        </div>
+
+        <div class="co-box">
+          <h3>Phương thức giao hàng</h3>
+          <div class="co-hint">Nhập địa chỉ để xem các phương thức giao hàng</div>
+        </div>
+
+        <div class="co-box">
+          <h3>Phương thức thanh toán</h3>
+          <div class="co-pay-opt active">
+            <div class="co-pay-opt__head"><input type="radio" name="pay" checked /> 💵 Tiền mặt khi nhận hàng</div>
+            <div class="co-pay-opt__sub">Áp dụng cho đơn hàng toàn quốc</div>
+          </div>
+          <div class="co-pay-opt">
+            <div class="co-pay-opt__head"><input type="radio" name="pay" /> ▦ Chuyển khoản trước qua QR - BIDV</div>
+          </div>
+          <div class="co-pay-opt">
+            <div class="co-pay-opt__head"><input type="radio" name="pay" /> 🏦 Chuyển khoản khi nhận hàng</div>
+          </div>
+        </div>
+
+        <div class="co-box co-invoice">
+          <span style="font-weight:700;color:var(--ink);">Hoá đơn điện tử</span>
+          <a href="#" id="vatTrigger">Yêu cầu xuất ›</a>
+        </div>
+
+        <div class="co-box">
+          <div class="co-field" style="margin:0;"><textarea rows="3" placeholder="Ghi chú đơn hàng"></textarea></div>
+        </div>
+      </div>
+
+      <!-- ============ RIGHT ============ -->
+      <div class="co-right">
+        <div class="co-box">
+          <h3>Giỏ hàng</h3>
+          <div class="co-cart-item">
+            <div class="co-cart-item__thumb"></div>
+            <div class="co-cart-item__body">
+              <div class="co-cart-item__name">Hộp giấy <b>FEST BIO</b> 3 COMPTS TAKEAWAY BOX WITH LID 1000ml</div>
+              <span class="co-pack-pill">Thùng - 150 cái ›</span>
+              <div class="co-cart-item__qty"><span class="co-cart-item__price">1,215,000₫</span><div class="qbox"><button type="button" class="q-minus">−</button><input value="1" readonly /><button type="button" class="q-plus">+</button></div><span class="unit">Thùng</span></div>
+            </div>
+            <span class="co-cart-item__del">🗑</span>
+          </div>
+          <div class="co-cart-item">
+            <div class="co-cart-item__thumb"></div>
+            <div class="co-cart-item__body">
+              <div class="co-cart-item__name">Dĩa giấy hoa văn Ø14 cm (ngẫu nhiên)</div>
+              <span class="co-pack-pill">Lốc - 20 cái ›</span>
+              <div class="co-cart-item__qty"><span class="co-cart-item__price"><span class="old">12,000₫</span>10,200₫</span><div class="qbox"><button type="button" class="q-minus">−</button><input value="1" readonly /><button type="button" class="q-plus">+</button></div><span class="unit">Lốc</span></div>
+              <div class="co-discount-note">Bạn đã được giảm <b>1,800₫</b> ⌄</div>
+            </div>
+            <span class="co-cart-item__del">🗑</span>
+          </div>
+          <div class="co-cart-item">
+            <div class="co-cart-item__thumb"></div>
+            <div class="co-cart-item__body">
+              <div class="co-cart-item__name">Hộp giấy FEST CHOICE TAKEAWAY BOX 725ml (hộp cơm)</div>
+              <span class="co-pack-pill">Lốc - 50 cái ›</span>
+              <div class="co-cart-item__qty"><span class="co-cart-item__price">125,000₫</span><div class="qbox"><button type="button" class="q-minus">−</button><input value="1" readonly /><button type="button" class="q-plus">+</button></div><span class="unit">Lốc</span></div>
+            </div>
+            <span class="co-cart-item__del">🗑</span>
+          </div>
+        </div>
+
+        <div class="co-box">
+          <h3>Mã khuyến mãi</h3>
+          <div class="co-promo-select"><span>🎟 Chọn mã</span><span><span class="tag">✦ Giảm giá 10%</span> ›</span></div>
+          <div class="co-promo-input"><input type="text" placeholder="Nhập mã khuyến mãi" /><button type="button">Áp dụng</button></div>
+        </div>
+
+        <div class="co-box">
+          <h3>Tóm tắt đơn hàng</h3>
+          <div class="co-sum-row"><span>Tổng tiền hàng</span><span>1,350,200₫</span></div>
+          <div class="co-sum-row"><span>Phí vận chuyển</span><span>-</span></div>
+          <div class="co-sum-row total"><span>Tổng thanh toán</span><b>1,350,200₫</b></div>
+          <div class="co-vat">Giá trên đã bao gồm VAT 100,015₫</div>
+          <a href="#" class="btn-order">Đặt hàng</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ VAT INVOICE MODAL ============ -->
+  <div class="vat-modal" id="vatModal" aria-hidden="true">
+    <div class="vat-dialog">
+      <div class="vat-head">
+        <button class="vat-close" type="button" aria-label="Đóng">×</button>
+        <h3>Xuất hoá đơn VAT</h3>
+      </div>
+      <div class="vat-body">
+        <div class="vat-type">
+          <label><input type="radio" name="vattype" value="ca-nhan" checked /> Cá nhân</label>
+          <label><input type="radio" name="vattype" value="cong-ty" /> Công ty</label>
+        </div>
+
+        <!-- Cá nhân -->
+        <form class="vat-form vat-form--person">
+          <div class="vat-field"><input type="text" placeholder="Nhập tên" /></div>
+          <div class="vat-grid"><input type="text" placeholder="CCCD (không bắt buộc)" /><input type="text" placeholder="Hộ chiếu (không bắt buộc)" /></div>
+          <div class="vat-field"><input type="email" placeholder="Email" /></div>
+          <div class="vat-field"><input type="text" placeholder="Địa chỉ, tên đường" /></div>
+          <button type="button" class="vat-useaddr">Sử dụng địa chỉ giao hàng</button>
+          <label class="vat-check"><input type="checkbox" /> Lưu thành thông tin xuất hoá đơn mặc định</label>
+          <div class="vat-note">
+            <b>ⓘ Lưu ý</b>
+            <ul>
+              <li>Nhà bán hàng chỉ hỗ trợ xuất hoá đơn một lần duy nhất và bạn sẽ không thể thay đổi sau khi xác nhận đặt hàng.</li>
+              <li>CCCD hợp lệ chỉ bao gồm 12 ký tự số.</li>
+            </ul>
+          </div>
+          <button type="submit" class="vat-submit">Gửi yêu cầu</button>
+        </form>
+
+        <!-- Công ty -->
+        <form class="vat-form vat-form--company">
+          <div class="vat-grid"><input type="text" placeholder="Nhập tên công ty" /><input type="text" placeholder="MST/CCCD" /></div>
+          <div class="vat-grid"><input type="text" placeholder="Tên người mua (không bắt buộc)" /><input type="text" placeholder="Mã ĐVQHNS (không bắt buộc)" /></div>
+          <div class="vat-field"><input type="email" placeholder="Email" /></div>
+          <div class="vat-field"><input type="text" placeholder="Địa chỉ, tên đường" /></div>
+          <button type="button" class="vat-useaddr">Sử dụng địa chỉ giao hàng</button>
+          <label class="vat-check"><input type="checkbox" /> Lưu thành thông tin xuất hoá đơn mặc định</label>
+          <div class="vat-note">
+            <b>ⓘ Lưu ý</b>
+            <ul>
+              <li>Nhà bán hàng chỉ hỗ trợ xuất hoá đơn một lần duy nhất và bạn sẽ không thể thay đổi sau khi xác nhận đặt hàng.</li>
+              <li>MST/CCCD hợp lệ chỉ bao gồm 10 hoặc 12 ký tự số (xxxxxxxxxx). Đối với MST 14 ký tự, gồm 13 ký tự số và dấu "-" (xxxxxxxxxx-xxx).</li>
+            </ul>
+          </div>
+          <button type="submit" class="vat-submit">Gửi yêu cầu</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // VAT modal
+    (function(){
+      var m=document.getElementById('vatModal');
+      var trig=document.getElementById('vatTrigger');
+      if(trig) trig.addEventListener('click',function(e){ e.preventDefault(); m.classList.add('open'); m.setAttribute('aria-hidden','false'); });
+      m.querySelector('.vat-close').addEventListener('click',function(){ m.classList.remove('open'); });
+      m.addEventListener('click',function(e){ if(e.target===m) m.classList.remove('open'); });
+      document.addEventListener('keydown',function(e){ if(e.key==='Escape') m.classList.remove('open'); });
+      var per=m.querySelector('.vat-form--person'), com=m.querySelector('.vat-form--company');
+      m.querySelectorAll('input[name="vattype"]').forEach(function(r){
+        r.addEventListener('change',function(){
+          var company=r.value==='cong-ty';
+          per.style.display=company?'none':'block';
+          com.style.display=company?'block':'none';
+        });
+      });
+      m.querySelectorAll('.vat-form').forEach(function(f){ f.addEventListener('submit',function(e){ e.preventDefault(); m.classList.remove('open'); }); });
+    })();
+    document.querySelectorAll('.qbox').forEach(function(q){
+      var inp=q.querySelector('input');
+      q.querySelector('.q-plus').addEventListener('click',function(){ inp.value=(+inp.value)+1; });
+      q.querySelector('.q-minus').addEventListener('click',function(){ if(+inp.value>1) inp.value=(+inp.value)-1; });
+    });
+    document.querySelectorAll('.co-cart-item__del').forEach(function(d){ d.addEventListener('click',function(){ d.closest('.co-cart-item').remove(); }); });
+    document.querySelectorAll('.co-tab').forEach(function(t){ t.addEventListener('click',function(){ document.querySelectorAll('.co-tab').forEach(function(x){x.classList.remove('active');}); t.classList.add('active'); }); });
+    document.querySelectorAll('.co-pay-opt').forEach(function(o){ o.addEventListener('click',function(){ document.querySelectorAll('.co-pay-opt').forEach(function(x){x.classList.remove('active');}); o.classList.add('active'); var r=o.querySelector('input'); if(r) r.checked=true; }); });
+  </script>
+</body>
+</html>

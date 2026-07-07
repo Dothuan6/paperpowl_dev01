@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Paperbowl — Sustainable Food Packaging</title>
+  <meta name="description" content="Paperbowl - bao bì thực phẩm dùng một lần từ giấy kraft, thân thiện môi trường. An toàn – Tiện lợi – Xanh bền vững." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER (single orange bar) ============ -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <img src="assets/Logo.jpg" alt="Paperbowl — Sustainable Food Packaging" />
+      </a>
+
+      <div class="search-wrap">
+        <form class="search" action="#" onsubmit="return false;">
+          <input type="text" placeholder="Tìm kiếm sản phẩm..." />
+          <button type="submit" aria-label="Tìm kiếm">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5 1.5-1.5-5-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.49 4.49 0 0 1 9.5 14z"/></svg>
+          </button>
+        </form>
+        <div class="search-suggest">
+          <h5>Có thể bạn muốn tìm</h5>
+          <div class="search-tags">
+            <a href="#">Tô giấy</a>
+            <a href="#">Ly giấy</a>
+            <a href="#">Khay giấy</a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="about.html">Giới thiệu</a></li>
+          <li class="has-sub">
+            <a href="collection.html">Sản phẩm</a>
+            <ul class="submenu">
+              <li><a href="#">Hộp giấy trắng</a></li>
+              <li><a href="#">Hộp giấy kraft</a></li>
+              <li><a href="#">Hộp bã mía</a></li>
+              <li><a href="#">Khay nhôm</a></li>
+              <li><a href="#">Tô giấy</a></li>
+              <li><a href="#">Ly giấy</a></li>
+              <li><a href="#">Ống hút giấy</a></li>
+              <li><a href="#">Khay giấy</a></li>
+              <li><a href="#">Dĩa giấy</a></li>
+              <li><a href="#">Túi giấy</a></li>
+              <li><a href="#">Phụ kiện</a></li>
+              <li><a href="#">Đồ nhựa</a></li>
+              <li><a href="#">Giấy &amp; túi rác</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <a href="industry.html">Ngành hàng</a>
+            <ul class="submenu">
+              <li><a href="industry.html">Nhà hàng</a></li>
+              <li><a href="industry.html">Khách sạn</a></li>
+              <li><a href="#">Tea &amp; Cafe</a></li>
+              <li><a href="#">Quán ăn</a></li>
+              <li><a href="#">Căn tin</a></li>
+              <li><a href="#">Siêu thị</a></li>
+              <li><a href="#">Trường học</a></li>
+              <li><a href="#">Bệnh viện</a></li>
+              <li><a href="#">Bánh mỳ</a></li>
+              <li><a href="#">Tiệc tùng</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <a href="print.html">In ấn</a>
+            <ul class="submenu">
+              <li><a href="#">In ly giấy</a></li>
+              <li><a href="#">In tô giấy</a></li>
+              <li><a href="#">In hộp giấy</a></li>
+              <li><a href="#">In túi giấy</a></li>
+            </ul>
+          </li>
+          <li class="has-sub">
+            <a href="blog.html">Chia sẻ</a>
+            <ul class="submenu">
+              <li><a href="news.html">Tin tức</a></li>
+              <li><a href="experience.html">Kinh Nghiệm</a></li>
+              <li><a href="tips.html">Mẹo Vặt</a></li>
+              <li><a href="green.html">Sống Xanh</a></li>
+              <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="login.html" class="header__action">
+          <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-3.33 0-10 1.67-10 5v3h20v-3c0-3.33-6.67-5-10-5z"/></svg>
+          <span>Tài khoản</span>
+        </a>
+        <div class="cart-wrap">
+          <button type="button" class="header__action header__cart" id="cartToggle">
+            <span class="cart-count">3</span>
+            <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M7 18a2 2 0 1 0 2 2 2 2 0 0 0-2-2zm10 0a2 2 0 1 0 2 2 2 2 0 0 0-2-2zM7.16 14h9.45a2 2 0 0 0 1.9-1.37l3-8.63H6.21l-.94-2H2v2h2l3.6 7.59-1.35 2.44A2 2 0 0 0 8 16h11v-2H8.42a.25.25 0 0 1-.22-.37z"/></svg>
+            <span>Giỏ hàng</span>
+          </button>
+
+          <div class="cart-dropdown" id="cartDropdown">
+            <h4 class="cart-dropdown__title">GIỎ HÀNG</h4>
+            <div class="cart-list">
+              <div class="cart-item">
+                <div class="cart-item__thumb"></div>
+                <div class="cart-item__body">
+                  <a href="#" class="cart-item__name">HỘP GIẤY FEST BIO 3 COMPTS TAKEAWAY BOX WITH LID 1000ML</a>
+                  <div class="cart-item__pack">Thùng - 150 cái</div>
+                  <div class="cart-item__row">
+                    <div class="qty"><button class="qty__btn qty-minus">−</button><input class="qty__val" value="1" readonly /><button class="qty__btn qty-plus">+</button></div>
+                    <div class="cart-item__price">1,215,000₫<span>(8,100₫/cái)</span></div>
+                  </div>
+                </div>
+                <button class="cart-item__remove" aria-label="Xóa">×</button>
+              </div>
+              <div class="cart-item">
+                <div class="cart-item__thumb"></div>
+                <div class="cart-item__body">
+                  <a href="#" class="cart-item__name">DĨA GIẤY HOA VĂN Ø14 CM (NGẪU NHIÊN)</a>
+                  <div class="cart-item__pack">Lốc - 20 cái</div>
+                  <div class="cart-item__row">
+                    <div class="qty"><button class="qty__btn qty-minus">−</button><input class="qty__val" value="1" readonly /><button class="qty__btn qty-plus">+</button></div>
+                    <div class="cart-item__price">10,200₫<span>(510₫/cái)</span></div>
+                  </div>
+                </div>
+                <button class="cart-item__remove" aria-label="Xóa">×</button>
+              </div>
+              <div class="cart-item">
+                <div class="cart-item__thumb"></div>
+                <div class="cart-item__body">
+                  <a href="#" class="cart-item__name">HỘP GIẤY FEST CHOICE TAKEAWAY BOX 725ML (HỘP CƠM)</a>
+                  <div class="cart-item__pack">Lốc - 50 cái</div>
+                  <div class="cart-item__row">
+                    <div class="qty"><button class="qty__btn qty-minus">−</button><input class="qty__val" value="1" readonly /><button class="qty__btn qty-plus">+</button></div>
+                    <div class="cart-item__price">125,000₫<span>(2,500₫/cái)</span></div>
+                  </div>
+                </div>
+                <button class="cart-item__remove" aria-label="Xóa">×</button>
+              </div>
+            </div>
+            <div class="cart-dropdown__total"><span>TỔNG TIỀN:</span><b>1,350,200₫</b></div>
+            <a href="cart.html" class="cart-dropdown__btn">XEM GIỎ HÀNG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO SLIDER (2 columns) ============ -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero__grid">
+        <a class="hero__cell hero__cell--main" href="#">
+          <img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/slide_1_img_large.jpg?v=536" alt="Đầy đủ hồ sơ an toàn vệ sinh thực phẩm" />
+        </a>
+        <a class="hero__cell hero__cell--side" href="#">
+          <img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/slide_second_1_mb_medium.jpg?v=536" alt="Tạo tài khoản mua hàng" />
+        </a>
+      </div>
+      <button class="hero__nav hero__prev" aria-label="Trước">‹</button>
+      <button class="hero__nav hero__next" aria-label="Sau">›</button>
+      <div class="hero__dots">
+        <button aria-label="1"></button>
+        <button aria-label="2"></button>
+        <button class="is-active" aria-label="3"></button>
+        <button aria-label="4"></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FLASH / SHOCK PRICE ============ -->
+  <section class="flash reveal">
+    <div class="container">
+      <div class="flash__bar">
+        <div class="flash__title">
+          <img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/flash.png?v=536" alt="Shock Price" />
+          <div class="countdown" id="countdown"><b>00</b><i>:</i><b>00</b><i>:</i><b>00</b></div>
+        </div>
+        <a href="#" class="flash__more">Xem thêm ›</a>
+      </div>
+
+      <div class="row-carousel">
+      <button class="row-nav row-prev" aria-label="Trước">‹</button>
+      <div class="product-row">
+        <div class="pcard">
+          <span class="pcard__badge badge--sale">-15%</span>
+          <a href="#" class="pcard__img"><span class="ph">Dĩa giấy FEST BIO OVAL</span></a>
+          <h3><a href="#">Dĩa giấy FEST BIO OVAL PLATE 6.5inches - 16x23cm</a></h3>
+          <div class="pcard__price"><span class="now">76,500₫</span> <span class="old">90,000₫</span></div>
+          <button class="btn-buy">Chọn mua</button>
+        </div>
+        <div class="pcard">
+          <span class="pcard__badge badge--sale">-15%</span>
+          <a href="#" class="pcard__img"><span class="ph">Dĩa giấy FEST BIO 8in</span></a>
+          <h3><a href="#">Dĩa giấy FEST BIO PLATE 8 inches - Ø19.5 cm</a></h3>
+          <div class="pcard__price"><span class="now">89,250₫</span> <span class="old">105,000₫</span></div>
+          <button class="btn-buy">Chọn mua</button>
+        </div>
+        <div class="pcard">
+          <span class="pcard__badge badge--sale">-15%</span>
+          <a href="#" class="pcard__img"><span class="ph">Dĩa giấy hoa văn Ø14</span></a>
+          <h3><a href="#">Dĩa giấy hoa văn Ø14 cm (ngẫu nhiên)</a></h3>
+          <div class="pcard__price"><span class="now">10,200₫</span> <span class="old">12,000₫</span></div>
+          <button class="btn-buy">Chọn mua</button>
+        </div>
+        <div class="pcard">
+          <span class="pcard__badge badge--sale">-15%</span>
+          <a href="#" class="pcard__img"><span class="ph">Hộp đựng gà 29.5cm</span></a>
+          <h3><a href="#">Hộp đựng gà 29.5x17.5cm (cao 22cm)</a></h3>
+          <div class="pcard__price"><span class="now">552,500₫</span> <span class="old">650,000₫</span></div>
+          <button class="btn-buy">Chọn mua</button>
+        </div>
+        <div class="pcard">
+          <span class="pcard__badge badge--sale">-15%</span>
+          <a href="#" class="pcard__img"><span class="ph">Hộp giấy Burger Premium</span></a>
+          <h3><a href="#">Hộp giấy Burger Premium trắng (12x12x7cm)</a></h3>
+          <div class="pcard__price"><span class="now">63,750₫</span> <span class="old">75,000₫</span></div>
+          <button class="btn-buy">Chọn mua</button>
+        </div>
+        <div class="pcard">
+          <span class="pcard__badge badge--sale">-15%</span>
+          <a href="#" class="pcard__img"><span class="ph">Hộp giấy kraft A700 ml</span></a>
+          <h3><a href="#">Hộp giấy kraft A700 ml</a></h3>
+          <div class="pcard__price"><span class="now">165,750₫</span> <span class="old">195,000₫</span></div>
+          <button class="btn-buy">Chọn mua</button>
+        </div>
+      </div>
+      <button class="row-nav row-next" aria-label="Sau">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SHOP BY CATEGORY (round icons) ============ -->
+  <section class="shop reveal">
+    <div class="container">
+      <h2 class="section-title"><span class="i">🛒</span> MUA SẮM THÔI NÀO!</h2>
+
+      <div class="cat-carousel">
+        <button class="cat-nav cat-prev" aria-label="Trước">‹</button>
+        <div class="cat-track">
+          <a href="collection.html" class="cat-item active"><span class="cat-icon">🍱</span><span class="cat-label">Hộp giấy trắng</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">📦</span><span class="cat-label">Hộp giấy kraft</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">🥡</span><span class="cat-label">Hộp bã mía</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">🍽️</span><span class="cat-label">Khay nhôm</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">🥣</span><span class="cat-label">Tô giấy</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">🥤</span><span class="cat-label">Ly giấy</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">🥢</span><span class="cat-label">Ống hút</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">🧺</span><span class="cat-label">Khay giấy</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">🍥</span><span class="cat-label">Dĩa</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">🛍️</span><span class="cat-label">Túi giấy</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">🥄</span><span class="cat-label">Phụ kiện</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">🧴</span><span class="cat-label">Đồ nhựa</span></a>
+          <a href="collection.html" class="cat-item"><span class="cat-icon">🧻</span><span class="cat-label">Sanitary</span></a>
+        </div>
+        <button class="cat-nav cat-next" aria-label="Sau">›</button>
+      </div>
+
+      <div class="product-grid">
+        <div class="pcard">
+          <img class="pcard__tag" src="https://file.hstatic.net/200000438087/file/tag-choice_78b9c73c0dbb4d78a0eecc6e687cf990.svg" alt="Choice" />
+          <span class="pcard__badge badge--best">BEST SELLER</span>
+          <a href="#" class="pcard__img"><span class="ph">FEST CHOICE SQUARE 500ml</span></a>
+          <h3><a href="#">Hộp giấy FEST CHOICE SQUARE TAKEAWAY BOX 500ml (bánh bao)</a></h3>
+          <div class="pcard__price"><span class="now">1,450₫/cái</span></div>
+          <div class="pcard__btns"><a href="#" class="btn-ghost">Chi tiết</a><a href="#" class="btn-ghost">Mua ngay</a></div>
+          <div class="pcard__rating">★ <b>4.9</b> <i>|</i> Đã bán <b>4,8k</b></div>
+        </div>
+        <div class="pcard">
+          <img class="pcard__tag" src="https://file.hstatic.net/200000438087/file/tag-choice_78b9c73c0dbb4d78a0eecc6e687cf990.svg" alt="Choice" />
+          <a href="#" class="pcard__img"><span class="ph">FEST CHOICE 500ml (hộp xôi)</span></a>
+          <h3><a href="#">Hộp giấy FEST CHOICE TAKEAWAY BOX 500ml (hộp xôi)</a></h3>
+          <div class="pcard__price"><span class="now">1,700₫/cái</span></div>
+          <div class="pcard__btns"><a href="#" class="btn-ghost">Chi tiết</a><a href="#" class="btn-ghost">Mua ngay</a></div>
+          <div class="pcard__rating">★ <b>4.8</b> <i>|</i> Đã bán <b>10,1k</b></div>
+        </div>
+        <div class="pcard">
+          <img class="pcard__tag" src="https://file.hstatic.net/200000438087/file/tag-choice_78b9c73c0dbb4d78a0eecc6e687cf990.svg" alt="Choice" />
+          <a href="#" class="pcard__img"><span class="ph">FEST CHOICE 725ml (hộp cơm)</span></a>
+          <h3><a href="#">Hộp giấy FEST CHOICE TAKEAWAY BOX 725ml (hộp cơm)</a></h3>
+          <div class="pcard__price"><span class="now">2,500₫/cái</span></div>
+          <div class="pcard__btns"><a href="#" class="btn-ghost">Chi tiết</a><a href="#" class="btn-ghost">Mua ngay</a></div>
+          <div class="pcard__rating">★ <b>4.6</b> <i>|</i> Đã bán <b>9,0k</b></div>
+        </div>
+        <div class="pcard">
+          <img class="pcard__tag" src="https://file.hstatic.net/200000438087/file/tag-choice_78b9c73c0dbb4d78a0eecc6e687cf990.svg" alt="Choice" />
+          <a href="#" class="pcard__img"><span class="ph">FEST CHOICE 1300ml</span></a>
+          <h3><a href="#">Hộp giấy FEST CHOICE TAKEAWAY BOX 1300ml</a></h3>
+          <div class="pcard__price"><span class="now">4,100₫/cái</span></div>
+          <div class="pcard__btns"><a href="#" class="btn-ghost">Chi tiết</a><a href="#" class="btn-ghost">Mua ngay</a></div>
+          <div class="pcard__rating">★ <b>4.8</b> <i>|</i> Đã bán <b>9,7k</b></div>
+        </div>
+        <div class="pcard">
+          <img class="pcard__tag" src="https://file.hstatic.net/200000438087/file/tag-choice_78b9c73c0dbb4d78a0eecc6e687cf990.svg" alt="Choice" />
+          <span class="pcard__badge badge--new">NEW</span>
+          <a href="#" class="pcard__img"><span class="ph">FEST CHOICE 2000ml</span></a>
+          <h3><a href="#">Hộp giấy FEST CHOICE TAKEAWAY BOX 2000ml</a></h3>
+          <div class="pcard__price"><span class="now">2,800₫/cái</span></div>
+          <div class="pcard__btns"><a href="#" class="btn-ghost">Chi tiết</a><a href="#" class="btn-ghost">Mua ngay</a></div>
+          <div class="pcard__rating">★ <b>4.5</b> <i>|</i> Đã bán <b>7,5k</b></div>
+        </div>
+        <div class="pcard">
+          <img class="pcard__tag" src="https://file.hstatic.net/200000438087/file/tag-choice_78b9c73c0dbb4d78a0eecc6e687cf990.svg" alt="Choice" />
+          <a href="#" class="pcard__img"><span class="ph">FEST CHOICE WITH LID 650ml</span></a>
+          <h3><a href="#">Hộp giấy FEST CHOICE TAKEAWAY BOX WITH LID 650 ml</a></h3>
+          <div class="pcard__price"><span class="now">4,000₫/cái</span></div>
+          <div class="pcard__btns"><a href="#" class="btn-ghost">Chi tiết</a><a href="#" class="btn-ghost">Mua ngay</a></div>
+          <div class="pcard__rating">★ <b>4.3</b> <i>|</i> Đã bán <b>11,8k</b></div>
+        </div>
+        <div class="pcard">
+          <img class="pcard__tag" src="https://file.hstatic.net/200000438087/file/tag-bio_10db9fa4cacd40c297385331e573b839.svg" alt="Bio" />
+          <a href="#" class="pcard__img"><span class="ph">FEST BIO 600ml</span></a>
+          <h3><a href="#">Hộp giấy FEST BIO TAKEAWAY BOX 600ml</a></h3>
+          <div class="pcard__price"><span class="now">2,700₫/cái</span></div>
+          <div class="pcard__btns"><a href="#" class="btn-ghost">Chi tiết</a><a href="#" class="btn-ghost">Mua ngay</a></div>
+          <div class="pcard__rating">★ <b>4.8</b> <i>|</i> Đã bán <b>9,7k</b></div>
+        </div>
+        <div class="pcard">
+          <img class="pcard__tag" src="https://file.hstatic.net/200000438087/file/tag-bio_10db9fa4cacd40c297385331e573b839.svg" alt="Bio" />
+          <a href="#" class="pcard__img"><span class="ph">FEST BIO 2 COMPTS 950ml</span></a>
+          <h3><a href="#">Hộp giấy FEST BIO 2 COMPTS TAKEAWAY BOX 950ml</a></h3>
+          <div class="pcard__price"><span class="now">5,000₫/cái</span></div>
+          <div class="pcard__btns"><a href="#" class="btn-ghost">Chi tiết</a><a href="#" class="btn-ghost">Mua ngay</a></div>
+          <div class="pcard__rating">★ <b>5.0</b> <i>|</i> Đã bán <b>13,3k</b></div>
+        </div>
+        <div class="pcard">
+          <img class="pcard__tag" src="https://file.hstatic.net/200000438087/file/tag-bio_10db9fa4cacd40c297385331e573b839.svg" alt="Bio" />
+          <a href="#" class="pcard__img"><span class="ph">FEST BIO 1000ml</span></a>
+          <h3><a href="#">Hộp giấy FEST BIO TAKEAWAY BOX 1000ml</a></h3>
+          <div class="pcard__price"><span class="now">5,500₫/cái</span></div>
+          <div class="pcard__btns"><a href="#" class="btn-ghost">Chi tiết</a><a href="#" class="btn-ghost">Mua ngay</a></div>
+          <div class="pcard__rating">★ <b>5.0</b> <i>|</i> Đã bán <b>6,9k</b></div>
+        </div>
+        <div class="pcard">
+          <img class="pcard__tag" src="https://file.hstatic.net/200000438087/file/tag-bio_10db9fa4cacd40c297385331e573b839.svg" alt="Bio" />
+          <a href="#" class="pcard__img"><span class="ph">FEST BIO WITH LID 600ml</span></a>
+          <h3><a href="#">Hộp giấy FEST BIO TAKEAWAY BOX WITH LID 600ml</a></h3>
+          <div class="pcard__price"><span class="now">5,000₫/cái</span></div>
+          <div class="pcard__btns"><a href="#" class="btn-ghost">Chi tiết</a><a href="#" class="btn-ghost">Mua ngay</a></div>
+          <div class="pcard__rating">★ <b>4.2</b> <i>|</i> Đã bán <b>12,3k</b></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CÔNG NỢ CTA ============ -->
+  <section class="congno reveal">
+    <div class="container congno__inner">
+      <div class="congno__img">
+        <img src="https://cdn.hstatic.net/files/200000438087/file/hinh_them_vao_muc_tu_van_sp.png" alt="Mua hàng công nợ" />
+      </div>
+      <div class="congno__text">
+        <h2>MUA HÀNG CÔNG NỢ</h2>
+        <p>Công ty bạn mua hàng thường xuyên và lặp lại hàng tháng?</p>
+        <p>Công ty bạn muốn thanh toán bằng hình thức công nợ?</p>
+        <form class="congno__form" onsubmit="return false;">
+          <input type="text" placeholder="Họ &amp; tên" />
+          <input type="tel" placeholder="ĐTDĐ (ZaLo)" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Công ty" />
+          <input type="text" placeholder="Mã số thuế" />
+          <input type="text" placeholder="Địa chỉ" />
+          <input type="text" placeholder="Sản phẩm cần mua" />
+          <input type="text" placeholder="Gửi báo giá" />
+          <div class="congno__submit"><button class="btn-buy">GỬI</button></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUALITY STANDARDS ============ -->
+  <section class="certs reveal">
+    <div class="container">
+      <h2 class="section-title"><span class="i">📜</span> TIÊU CHUẨN CHẤT LƯỢNG</h2>
+      <div class="certs__carousel">
+        <div class="certs__track">
+          <div class="cert-card"><img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/home_certificate_image_1_medium.jpg?v=536" alt="ISO 9001:2015" /></div>
+          <div class="cert-card"><img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/home_certificate_image_2_medium.jpg?v=536" alt="BRCGS" /></div>
+          <div class="cert-card"><img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/home_certificate_image_3_medium.jpg?v=536" alt="ISO 22000" /></div>
+          <div class="cert-card"><img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/home_certificate_image_5_medium.jpg?v=536" alt="FSC" /></div>
+          <div class="cert-card"><img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/home_certificate_image_6_medium.jpg?v=536" alt="ISO 14001" /></div>
+        </div>
+        <div class="certs__dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ NEWS ============ -->
+  <section class="news reveal">
+    <div class="container">
+      <h2 class="section-title"><span class="i">📝</span> TIN TỨC</h2>
+      <div class="news__grid">
+        <article class="ncard">
+          <a href="#" class="ncard__img"><span class="ph">DOMINO'S PIZZA</span></a>
+          <h3><a href="#">[OFFICAL] Ecoeshop.vn cung cấp dĩa giấy cho chuỗi…</a></h3>
+          <a href="#" class="ncard__more">ĐỌC TIẾP</a>
+        </article>
+        <article class="ncard">
+          <a href="#" class="ncard__img"><span class="ph">PHÚC LONG</span></a>
+          <h3><a href="#">[OFFICAL] Ecoeshop.vn cung cấp hộp giấy đựng thức ăn Fe…</a></h3>
+          <a href="#" class="ncard__more">ĐỌC TIẾP</a>
+        </article>
+        <article class="ncard">
+          <a href="#" class="ncard__img"><span class="ph">PHIN DELI</span></a>
+          <h3><a href="#">[CHÍNH THỨC] Ecoeshop.vn Hợp Tác Cung Cấp Các Sản…</a></h3>
+          <a href="#" class="ncard__more">ĐỌC TIẾP</a>
+        </article>
+        <article class="ncard">
+          <a href="#" class="ncard__img"><span class="ph">THE COFFEE HOUSE</span></a>
+          <h3><a href="#">The Coffee House Chọn EcoEshop.vn Làm Nhà Cung…</a></h3>
+          <a href="#" class="ncard__more">ĐỌC TIẾP</a>
+        </article>
+      </div>
+      <div class="center"><a href="#" class="link-more">Xem tất cả ›</a></div>
+    </div>
+  </section>
+
+  <!-- ============ PARTNERS ============ -->
+  <section class="partners reveal">
+    <div class="container">
+      <h2 class="section-title"><span class="i">🤝</span> KHÁCH HÀNG &amp; ĐỐI TÁC</h2>
+      <div class="partners__carousel">
+        <button class="cat-nav cat-prev" aria-label="Trước">‹</button>
+        <div class="partners__track">
+          <img src="https://file.hstatic.net/200000438087/file/du_an_moi_otooke_7eaf9aa226994abe9d9f106e6d533250_grande.jpg" alt="Otoke Chicken" />
+          <img src="https://file.hstatic.net/200000438087/file/du_an_moi_phucs_long_569fe28826dd4d6ea75b1f63fcc7df8c_grande.jpg" alt="Phúc Long" />
+          <img src="https://file.hstatic.net/200000438087/file/du_an_moi_uel_3ef009c085dd4f3e951d7cf24f32c23b_grande.jpg" alt="UEL" />
+          <img src="https://file.hstatic.net/200000438087/file/siss_a4125ca8c9be456cb1356502c7b1a77b_medium.png" alt="SSIS" />
+          <img src="https://file.hstatic.net/200000438087/file/du_an_moi_thaco_b6e1f4d4fab3491d8b03065e2ed6f3e1_grande.jpg" alt="Thaco" />
+          <img src="https://file.hstatic.net/200000438087/file/gogi_23_6b767c41e63d43c0ae28ee2e221bdabf_grande.jpg" alt="Gogi" />
+          <img src="https://file.hstatic.net/200000438087/file/tokio_c4db1123e7c041c8abb50a5055231c66_grande.jpg" alt="Tokyo Deli" />
+          <img src="https://file.hstatic.net/200000438087/file/logo_starbucks_m_6a8f039cc2714dfb8baa3a54043d0685_grande.jpg" alt="Starbucks" />
+          <img src="https://file.hstatic.net/200000438087/file/marioot_6ef48e43a8c746df9bc08cec573eaec6_medium.png" alt="Marriott" />
+          <img src="https://file.hstatic.net/200000438087/file/jw_d1a26a2da0c5436f88b441386b466381_medium.png" alt="JW" />
+        </div>
+        <button class="cat-nav cat-next" aria-label="Sau">›</button>
+      </div>
+
+      <!-- Google reviews -->
+            <div class="greviews">
+        <div class="greviews__head">
+          <div class="greviews__score">
+            <span class="greviews__from">Đánh Giá Từ <b class="g">G</b><b class="o">o</b><b class="y">o</b><b class="g">g</b><b class="gr">l</b><b class="r">e</b></span>
+            <div class="greviews__stars"><b>5</b> ★★★★★ <span>(100+)</span></div>
+          </div>
+          <a href="#" class="btn-buy greviews__write">Viết đánh giá</a>
+        </div>
+        <div class="greviews__grid">
+          <div class="rcard"><div class="rcard__top"><span class="rcard__ava">P</span><b>Phuc Lê</b><span class="rcard__v">✓</span></div><div class="rcard__stars">★★★★★</div><p>Nhân viên dễ thương</p></div>
+          <div class="rcard"><div class="rcard__top"><span class="rcard__ava">T</span><b>Tài Chí</b><span class="rcard__v">✓</span></div><div class="rcard__stars">★★★★★</div><p>Ok</p></div>
+          <div class="rcard"><div class="rcard__top"><span class="rcard__ava">C</span><b>Chánh Nghĩa</b><span class="rcard__v">✓</span></div><div class="rcard__stars">★★★★★</div><p>Hàng ok</p></div>
+          <div class="rcard"><div class="rcard__top"><span class="rcard__ava">T</span><b>Thắng nguyễn</b><span class="rcard__v">✓</span></div><div class="rcard__stars">★★★★★</div><p>Nhân viên nhiệt tình</p></div>
+          <div class="rcard"><div class="rcard__top"><span class="rcard__ava">T</span><b>Tran Nhu</b><span class="rcard__v">✓</span></div><div class="rcard__stars">★★★★★</div><p>Hàng đẹp chất lượng</p></div>
+        </div>
+        <div class="greviews__foot">
+          <button class="cat-nav" aria-label="Trước">‹</button>
+          <a href="#" class="btn-buy">Xem tất cả đánh giá (100+)</a>
+          <button class="cat-nav" aria-label="Sau">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__col footer__about">
+        <h4>Thông tin Doanh nghiệp</h4>
+        <p><b>WWW.ECOESHOP.VN</b> là trang web bán hàng chuyên cung cấp các sản phẩm bao bì đựng thực phẩm dùng 1 lần từ giấy, bã mía, tre, gỗ,... an toàn sức khỏe, thân thiện môi trường, với mẫu mã đa dạng, đẹp mắt.</p>
+        <p><b>Cửa hàng:</b> 127A Cầu Kinh, Tân Tạo A, Bình Tân, HCM</p>
+        <p><b>Thông tin đơn vị chủ quản:</b><br />CÔNG TY TRÁCH NHIỆM HỮU HẠN ECO PRO<br />Địa chỉ: 1455/9 Tỉnh lộ 10, Phường Tân Tạo, TP Hồ Chí Minh<br />Mã số thuế: 0315804244 - Điện thoại: 028 2245 4477<br />Email hóa đơn điện tử: ecopro@meinvoice.vn<br />TK ngân hàng: 8680054333 - BIDV CN Bình Tân</p>
+      </div>
+      <div class="footer__col">
+        <h4>Tìm kiếm phổ biến</h4>
+        <ul><li><a href="#">Cốc giấy Ecoeshop</a></li><li><a href="#">Túi giấy kraft</a></li><li><a href="#">Ống hút giấy</a></li><li><a href="#">Hộp giấy kraft</a></li><li><a href="#">Muỗng gỗ</a></li><li><a href="#">Đĩa giấy</a></li><li><a href="#">Hộp cơm giấy</a></li><li><a href="#">Hộp giấy đựng thức ăn</a></li></ul>
+      </div>
+      <div class="footer__col">
+        <h4>Hỗ trợ khách hàng</h4>
+        <ul><li><a href="terms.html">Điều khoản dịch vụ</a></li><li><a href="privacy.html">Chính sách bảo mật</a></li><li><a href="payment.html">Mua hàng, thanh toán</a></li><li><a href="shipping.html">Chính sách giao hàng</a></li><li><a href="returns.html">Chính sách đổi trả</a></li></ul>
+      </div>
+      <div class="footer__col footer__col--hotline">
+        <h4>Hotline tư vấn</h4>
+        <p class="footer__hot"><svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M6.62 10.79a15.15 15.15 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.57 1 1 0 0 1-.25 1.02z"/></svg> 0707 153 943</p>
+        <p><a href="mailto:contact@eco-pro.vn">contact@eco-pro.vn</a></p>
+        <div class="footer__social"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Youtube">▶</a></div>
+        <div class="footer__gov">✔ ĐÃ THÔNG BÁO<br /><small>BỘ CÔNG THƯƠNG</small></div>
+      </div>
+    </div>
+    <div class="footer__bottom"><div class="container">Copyright © 2026 Công ty TNHH ECO PRO.<br />Giấy chứng nhận Đăng ký Kinh doanh số 0315804244 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 22 tháng 07 năm 2019.</div></div>
+  </footer>
+
+  <div class="float-btns" id="floatBtns">
+    <button class="contact-btn" id="contactToggle" aria-label="Liên hệ"><span class="contact-btn__default"><svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM7 9h10v2H7zm0 4h7v2H7z"/></svg><span>Liên hệ</span></span><span class="contact-btn__close">×</span></button>
+    <div class="contact-menu">
+      <a href="tel:0707153943" class="contact-menu__item"><span class="cm-ico cm-ico--phone"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M6.62 10.79a15.15 15.15 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.57 1 1 0 0 1-.25 1.02z"/></svg></span> Hotline bán hàng</a>
+      <a href="#" class="contact-menu__item"><span class="cm-ico cm-ico--zalo"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 3C6.48 3 2 6.94 2 11.8c0 2.79 1.5 5.28 3.86 6.9-.14.98-.6 2.2-1.2 3.05-.13.19.02.44.24.4 1.7-.32 3.2-1.06 4.02-1.6.98.24 2.02.35 3.08.35 5.52 0 10-3.94 10-8.8S17.52 3 12 3z"/></svg></span> Chat qua zalo OA</a>
+      <a href="#" class="contact-menu__item"><span class="cm-ico cm-ico--map"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span> Địa chỉ Cửa hàng</a>
+    </div>
+  </div>
+  <button class="to-top" aria-label="Lên đầu trang" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <!-- ============ REVIEW MODAL ============ -->
+
+  <!-- ============ QUICK VIEW MODAL ============ -->
+  <div class="qv-modal" id="qvModal" aria-hidden="true">
+    <div class="qv-dialog">
+      <div class="qv-share" id="qvShare">
+        <button class="qv-share__toggle" type="button" aria-label="Chia sẻ"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 1 0-3-3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0 0 6c.79 0 1.5-.31 2.04-.81l7.12 4.16c-.05.21-.08.43-.08.65a2.92 2.92 0 1 0 2.92-2.92z"/></svg></button>
+        <div class="qv-share__list"><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="Sao chép link">🔗</a></div>
+      </div>
+      <div class="qv-head">
+        <span class="qv-head__name" id="qvHeadName">Sản phẩm</span>
+        <span class="qv-head__brand">paperbowl.vn</span>
+        <button class="qv-close" aria-label="Đóng">×</button>
+      </div>
+      <div class="qv-body">
+        <div class="qv-gallery">
+          <button class="qv-gnav qv-gprev" aria-label="Trước">‹</button>
+          <div class="qv-img"><span id="qvImg">Sản phẩm</span></div>
+          <button class="qv-gnav qv-gnext" aria-label="Sau">›</button>
+          <div class="qv-dots"><span class="is-active"></span><span></span><span></span><span></span><span></span></div>
+        </div>
+        <div class="qv-info">
+          <h3 id="qvName">Tên sản phẩm</h3>
+          <div class="qv-sku">Mã sản phẩm: <b id="qvSku">PB000</b></div>
+          <div class="qv-variants">
+            <label class="qv-variant is-active"><input type="radio" name="qvv" value="0" checked /><span class="qv-variant__name">Lốc - 50 cái</span><span class="qv-variant__price" id="qvP0">0₫</span><span class="qv-variant__unit" id="qvU0"></span></label>
+            <label class="qv-variant"><input type="radio" name="qvv" value="1" /><span class="qv-variant__name">Thùng - 1000 cái</span><span class="qv-variant__price" id="qvP1">0₫</span><span class="qv-variant__unit" id="qvU1"></span></label>
+          </div>
+          <div class="qv-actions">
+            <div class="qv-qty"><button class="qv-minus" type="button">−</button><input class="qv-val" value="1" readonly /><button class="qv-plus" type="button">+</button></div>
+            <button class="qv-add" id="qvAdd" type="button">THÊM VÀO GIỎ: <span id="qvTotal">0₫</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

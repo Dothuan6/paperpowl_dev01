@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Giới thiệu | Paperbowl — Sustainable Food Packaging</title>
+  <meta name="description" content="Giới thiệu về Paperbowl - thương hiệu bao bì thực phẩm dùng một lần từ giấy kraft, thân thiện môi trường." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&amp;family=Roboto:wght@400;500;700&amp;display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">
+        <img src="assets/Logo.jpg" alt="Paperbowl — Sustainable Food Packaging" />
+      </a>
+
+      <div class="search-wrap">
+        <form class="search" action="#" onsubmit="return false;">
+          <input type="text" placeholder="Tìm kiếm sản phẩm..." />
+          <button type="submit" aria-label="Tìm kiếm">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5 1.5-1.5-5-5zm-6 0A4.5 4.5 0 1 1 14 9.5 4.49 4.49 0 0 1 9.5 14z"/></svg>
+          </button>
+        </form>
+        <div class="search-suggest">
+          <h5>Có thể bạn muốn tìm</h5>
+          <div class="search-tags">
+            <a href="#">Tô giấy</a><a href="#">Ly giấy</a><a href="#">Khay giấy</a>
+          </div>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <ul class="menu">
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="about.html">Giới thiệu</a></li>
+          <li class="has-sub"><a href="collection.html">Sản phẩm</a>
+            <ul class="submenu">
+              <li><a href="#">Hộp giấy trắng</a></li><li><a href="#">Hộp giấy kraft</a></li>
+              <li><a href="#">Hộp bã mía</a></li><li><a href="#">Khay nhôm</a></li>
+              <li><a href="#">Tô giấy</a></li><li><a href="#">Ly giấy</a></li>
+              <li><a href="#">Ống hút giấy</a></li><li><a href="#">Khay giấy</a></li>
+              <li><a href="#">Dĩa giấy</a></li><li><a href="#">Túi giấy</a></li>
+              <li><a href="#">Phụ kiện</a></li><li><a href="#">Đồ nhựa</a></li>
+              <li><a href="#">Giấy &amp; túi rác</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a href="industry.html">Ngành hàng</a>
+            <ul class="submenu">
+              <li><a href="#">Nhà hàng</a></li><li><a href="#">Khách sạn</a></li>
+              <li><a href="#">Tea &amp; Cafe</a></li><li><a href="#">Quán ăn</a></li>
+              <li><a href="#">Căn tin</a></li><li><a href="#">Siêu thị</a></li>
+              <li><a href="#">Trường học</a></li><li><a href="#">Bệnh viện</a></li>
+              <li><a href="#">Bánh mỳ</a></li><li><a href="#">Tiệc tùng</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a href="print.html">In ấn</a>
+            <ul class="submenu">
+              <li><a href="#">In ly giấy</a></li><li><a href="#">In tô giấy</a></li>
+              <li><a href="#">In hộp giấy</a></li><li><a href="#">In túi giấy</a></li>
+            </ul>
+          </li>
+          <li class="has-sub"><a href="blog.html">Chia sẻ</a>
+            <ul class="submenu">
+              <li><a href="news.html">Tin tức</a></li><li><a href="experience.html">Kinh Nghiệm</a></li>
+              <li><a href="tips.html">Mẹo Vặt</a></li><li><a href="green.html">Sống Xanh</a></li>
+              <li><a href="faqs.html">FAQs</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="login.html" class="header__action">
+          <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M12 12a5 5 0 1 0-5-5 5 5 0 0 0 5 5zm0 2c-3.33 0-10 1.67-10 5v3h20v-3c0-3.33-6.67-5-10-5z"/></svg>
+          <span>Tài khoản</span>
+        </a>
+        <div class="cart-wrap">
+          <button type="button" class="header__action header__cart" id="cartToggle">
+            <span class="cart-count">0</span>
+            <svg viewBox="0 0 24 24" width="26" height="26"><path fill="currentColor" d="M7 18a2 2 0 1 0 2 2 2 2 0 0 0-2-2zm10 0a2 2 0 1 0 2 2 2 2 0 0 0-2-2zM7.16 14h9.45a2 2 0 0 0 1.9-1.37l3-8.63H6.21l-.94-2H2v2h2l3.6 7.59-1.35 2.44A2 2 0 0 0 8 16h11v-2H8.42a.25.25 0 0 1-.22-.37z"/></svg>
+            <span>Giỏ hàng</span>
+          </button>
+          <div class="cart-dropdown" id="cartDropdown">
+            <h4 class="cart-dropdown__title">GIỎ HÀNG</h4>
+            <div class="cart-list"></div>
+            <div class="cart-dropdown__total"><span>TỔNG TIỀN:</span><b>0₫</b></div>
+            <a href="cart.html" class="cart-dropdown__btn">XEM GIỎ HÀNG</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ PAGE BANNER ============ -->
+  <section class="page-banner">
+    <h1>Chúng tôi là PAPERBOWL</h1>
+    <p>Paperbowl là thương hiệu bao bì thực phẩm dùng một lần từ giấy kraft, bã mía, tre, gỗ — an toàn cho sức khỏe, thân thiện với môi trường. Phương châm: <b>An toàn – Tiện lợi – Xanh bền vững.</b></p>
+  </section>
+
+  <!-- ============ STATS ============ -->
+  <section class="about-hero reveal">
+    <div class="container about-hero__inner">
+      <div class="about-hero__img">
+        <img src="assets/Logo.jpg" alt="Paperbowl" />
+      </div>
+      <div class="about-stats">
+        <div class="stat"><div class="stat__num" data-target="63" data-suffix=" ++">0</div><div class="stat__label">Thành tích &amp; đối tác đồng hành</div></div>
+        <div class="stat"><div class="stat__num" data-target="20000" data-suffix=" ++">0</div><div class="stat__label">Khách hàng đã mua hàng</div></div>
+        <div class="stat"><div class="stat__num" data-target="100000000" data-suffix=" ++">0</div><div class="stat__label">Sản phẩm đã đến tay khách hàng</div></div>
+        <div class="stat"><div class="stat__num" data-target="1000" data-suffix=" ++">0</div><div class="stat__label">Tấn nhựa ước tính đã giảm khi dùng sản phẩm Paperbowl</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WHAT WE PROVIDE ============ -->
+  <section class="about-provide reveal">
+    <div class="container">
+      <h2 class="section-title">Chúng tôi cung cấp gì?</h2>
+      <div class="cat-carousel">
+        <button class="cat-nav cat-prev" aria-label="Trước">‹</button>
+        <div class="cat-track">
+          <a href="#" class="cat-item"><span class="cat-icon">🍱</span><span class="cat-label">Hộp giấy trắng</span></a>
+          <a href="#" class="cat-item"><span class="cat-icon">📦</span><span class="cat-label">Hộp giấy kraft</span></a>
+          <a href="#" class="cat-item"><span class="cat-icon">🥡</span><span class="cat-label">Hộp bã mía</span></a>
+          <a href="#" class="cat-item"><span class="cat-icon">🍽️</span><span class="cat-label">Khay nhôm</span></a>
+          <a href="#" class="cat-item"><span class="cat-icon">🥣</span><span class="cat-label">Tô giấy</span></a>
+          <a href="#" class="cat-item"><span class="cat-icon">🥤</span><span class="cat-label">Ly giấy</span></a>
+          <a href="#" class="cat-item"><span class="cat-icon">🥢</span><span class="cat-label">Ống hút</span></a>
+          <a href="#" class="cat-item"><span class="cat-icon">🛍️</span><span class="cat-label">Túi giấy</span></a>
+        </div>
+        <button class="cat-nav cat-next" aria-label="Sau">›</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ OUR DIFFERENCE ============ -->
+  <section class="about-diff reveal">
+    <div class="container">
+      <h2 class="section-title">Sự khác biệt của chúng tôi?</h2>
+      <div class="diff-grid">
+        <div class="diff-item"><div class="diff-item__ic">🛒</div><p>Website đầy đủ tính năng, mua sắm online dễ dàng</p></div>
+        <div class="diff-item"><div class="diff-item__ic">📦</div><p>Sản phẩm đa dạng, mẫu mã mới 300++</p></div>
+        <div class="diff-item"><div class="diff-item__ic">💳</div><p>Chính sách thanh toán linh hoạt</p></div>
+        <div class="diff-item"><div class="diff-item__ic">🚚</div><p>Giao hàng nhanh chóng</p></div>
+        <div class="diff-item"><div class="diff-item__ic">🌿</div><p>Sản phẩm thân thiện môi trường</p></div>
+        <div class="diff-item"><div class="diff-item__ic">🏷️</div><p>Giá cả cạnh tranh, nhiều ưu đãi</p></div>
+        <div class="diff-item"><div class="diff-item__ic">✅</div><p>Công bố, kiểm nghiệm đúng quy định</p></div>
+        <div class="diff-item"><div class="diff-item__ic">🧾</div><p>Hóa đơn VAT đầy đủ</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ QUOTE ============ -->
+  <section class="quote-banner reveal">
+    <div class="quote-banner__inner">
+      <div class="quote-banner__mark">“</div>
+      <p>Với kinh nghiệm cung cấp bao bì cho nhiều doanh nghiệp ngành F&amp;B trên khắp cả nước, cùng những giá trị khác biệt mà Paperbowl đang tạo ra, chúng tôi mang đến cho doanh nghiệp của bạn những giải pháp bao bì hiệu quả và bền vững.</p>
+    </div>
+  </section>
+
+  <!-- ============ CERTIFICATES ============ -->
+  <section class="about-certs reveal">
+    <div class="container">
+      <h2 class="section-title"><span class="i">📜</span> CÔNG BỐ, CHỨNG NHẬN</h2>
+      <div class="certs__carousel">
+        <div class="certs__track">
+          <div class="cert-card"><img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/home_certificate_image_1_medium.jpg?v=536" alt="ISO 9001:2015" /></div>
+          <div class="cert-card"><img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/home_certificate_image_2_medium.jpg?v=536" alt="BRCGS" /></div>
+          <div class="cert-card"><img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/home_certificate_image_3_medium.jpg?v=536" alt="ISO 22000" /></div>
+          <div class="cert-card"><img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/home_certificate_image_5_medium.jpg?v=536" alt="FSC" /></div>
+          <div class="cert-card"><img src="https://cdn.hstatic.net/themes/200000438087/1001459836/14/home_certificate_image_6_medium.jpg?v=536" alt="ISO 14001" /></div>
+        </div>
+        <div class="certs__dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__col footer__about">
+        <h4>Thông tin Doanh nghiệp</h4>
+        <p><b>WWW.ECOESHOP.VN</b> là trang web bán hàng chuyên cung cấp các sản phẩm bao bì đựng thực phẩm dùng 1 lần từ giấy, bã mía, tre, gỗ,... an toàn sức khỏe, thân thiện môi trường, với mẫu mã đa dạng, đẹp mắt.</p>
+        <p><b>Cửa hàng:</b> 127A Cầu Kinh, Tân Tạo A, Bình Tân, HCM</p>
+        <p><b>Thông tin đơn vị chủ quản:</b><br />CÔNG TY TRÁCH NHIỆM HỮU HẠN ECO PRO<br />Địa chỉ: 1455/9 Tỉnh lộ 10, Phường Tân Tạo, TP Hồ Chí Minh<br />Mã số thuế: 0315804244 - Điện thoại: 028 2245 4477<br />Email hóa đơn điện tử: ecopro@meinvoice.vn<br />TK ngân hàng: 8680054333 - BIDV CN Bình Tân</p>
+      </div>
+      <div class="footer__col">
+        <h4>Tìm kiếm phổ biến</h4>
+        <ul>
+          <li><a href="#">Cốc giấy Ecoeshop</a></li>
+          <li><a href="#">Túi giấy kraft</a></li>
+          <li><a href="#">Ống hút giấy</a></li>
+          <li><a href="#">Hộp giấy kraft</a></li>
+          <li><a href="#">Muỗng gỗ</a></li>
+          <li><a href="#">Đĩa giấy</a></li>
+          <li><a href="#">Hộp cơm giấy</a></li>
+          <li><a href="#">Hộp giấy đựng thức ăn</a></li>
+        </ul>
+      </div>
+      <div class="footer__col">
+        <h4>Hỗ trợ khách hàng</h4>
+        <ul>
+          <li><a href="terms.html">Điều khoản dịch vụ</a></li>
+          <li><a href="privacy.html">Chính sách bảo mật</a></li>
+          <li><a href="payment.html">Mua hàng, thanh toán</a></li>
+          <li><a href="shipping.html">Chính sách giao hàng</a></li>
+          <li><a href="returns.html">Chính sách đổi trả</a></li>
+        </ul>
+      </div>
+      <div class="footer__col footer__col--hotline">
+        <h4>Hotline tư vấn</h4>
+        <p class="footer__hot"><svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M6.62 10.79a15.15 15.15 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.57 1 1 0 0 1-.25 1.02z"/></svg> 0707 153 943</p>
+        <p><a href="mailto:contact@eco-pro.vn">contact@eco-pro.vn</a></p>
+        <div class="footer__social">
+          <a href="#" aria-label="Facebook">f</a>
+          <a href="#" aria-label="Youtube">▶</a>
+        </div>
+        <div class="footer__gov">✔ ĐÃ THÔNG BÁO<br /><small>BỘ CÔNG THƯƠNG</small></div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        Copyright © 2026 Công ty TNHH ECO PRO.<br />
+        Giấy chứng nhận Đăng ký Kinh doanh số 0315804244 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp ngày 22 tháng 07 năm 2019.
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ FLOATING BUTTONS ============ -->
+  <div class="float-btns" id="floatBtns">
+    <button class="contact-btn" id="contactToggle" aria-label="Liên hệ">
+      <span class="contact-btn__default">
+        <svg viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M20 2H4a2 2 0 0 0-2 2v18l4-4h14a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2zM7 9h10v2H7zm0 4h7v2H7z"/></svg>
+        <span>Liên hệ</span>
+      </span>
+      <span class="contact-btn__close">×</span>
+    </button>
+    <div class="contact-menu">
+      <a href="tel:0707153943" class="contact-menu__item"><span class="cm-ico cm-ico--phone"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M6.62 10.79a15.15 15.15 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11.36 11.36 0 0 0 .57 3.57 1 1 0 0 1-.25 1.02z"/></svg></span> Hotline bán hàng</a>
+      <a href="#" class="contact-menu__item"><span class="cm-ico cm-ico--zalo"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 3C6.48 3 2 6.94 2 11.8c0 2.79 1.5 5.28 3.86 6.9-.14.98-.6 2.2-1.2 3.05-.13.19.02.44.24.4 1.7-.32 3.2-1.06 4.02-1.6.98.24 2.02.35 3.08.35 5.52 0 10-3.94 10-8.8S17.52 3 12 3z"/></svg></span> Chat qua zalo OA</a>
+      <a href="#" class="contact-menu__item"><span class="cm-ico cm-ico--map"><svg viewBox="0 0 24 24" width="16" height="16"><path fill="currentColor" d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span> Địa chỉ Cửa hàng</a>
+    </div>
+  </div>
+  <button class="to-top" aria-label="Lên đầu trang" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+    <!-- ============ LIGHTBOX ============ -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox__close" aria-label="Đóng">×</button>
+    <button class="lightbox__nav lightbox__prev" aria-label="Trước">‹</button>
+    <img class="lightbox__img" id="lightboxImg" src="" alt="Chứng nhận" />
+    <button class="lightbox__nav lightbox__next" aria-label="Sau">›</button>
+    <div class="lightbox__counter" id="lightboxCounter"></div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    (function () {
+      function fmt(n){ return n.toLocaleString('vi-VN'); }
+      function run(el){
+        var target = +el.dataset.target, suffix = el.dataset.suffix || '', t0 = null, dur = 1600;
+        function step(ts){ if(!t0) t0 = ts; var p = Math.min((ts-t0)/dur,1);
+          el.textContent = fmt(Math.floor((1-Math.pow(1-p,3))*target)) + suffix;
+          if(p<1) requestAnimationFrame(step); }
+        requestAnimationFrame(step);
+      }
+      var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ run(e.target); io.unobserve(e.target); } }); }, { threshold:.4 });
+      document.querySelectorAll('.stat__num').forEach(function(el){ io.observe(el); });
+    })();
+    (function () {
+      var imgs = Array.prototype.map.call(document.querySelectorAll('.about-certs .cert-card img'), function(i){ return i.src; });
+      var lb = document.getElementById('lightbox'), lbImg = document.getElementById('lightboxImg'), counter = document.getElementById('lightboxCounter'), idx = 0;
+      function show(i){ idx=(i+imgs.length)%imgs.length; lbImg.src=imgs[idx]; counter.textContent=(idx+1)+' / '+imgs.length; }
+      function open(i){ show(i); lb.classList.add('open'); lb.setAttribute('aria-hidden','false'); }
+      function close(){ lb.classList.remove('open'); lb.setAttribute('aria-hidden','true'); }
+      document.querySelectorAll('.about-certs .cert-card').forEach(function(card,i){ card.addEventListener('click',function(){ open(i); }); });
+      lb.querySelector('.lightbox__next').addEventListener('click',function(e){ e.stopPropagation(); show(idx+1); });
+      lb.querySelector('.lightbox__prev').addEventListener('click',function(e){ e.stopPropagation(); show(idx-1); });
+      lb.querySelector('.lightbox__close').addEventListener('click',close);
+      lb.addEventListener('click',function(e){ if(e.target===lb) close(); });
+      document.addEventListener('keydown',function(e){ if(!lb.classList.contains('open'))return; if(e.key==='Escape')close(); else if(e.key==='ArrowRight')show(idx+1); else if(e.key==='ArrowLeft')show(idx-1); });
+    })();
+  </script>
+</body>
+</html>
