@@ -1,0 +1,915 @@
+{
+ "collections": [
+  {
+   "handle": "hop-giay-dung-thuc-an",
+   "name": "Hộp giấy trắng",
+   "products": [
+    {
+     "title": "Hộp giấy FEST CHOICE SQUARE TAKEAWAY BOX 500ml (bánh bao)",
+     "handle": "hop-banh-bao-giay",
+     "url": "https://ecoeshop.vn/products/hop-banh-bao-giay",
+     "image": "https://cdn.hstatic.net/products/200000438087/thi_t_k__ch_a_c__t_n__3__6bf24950d61c43369a14b21656536587.png",
+     "price": 72500,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 72500
+      },
+      {
+       "title": "Thùng - 1000 cái",
+       "price": 1100000
+      }
+     ]
+    },
+    {
+     "title": "Bộ hộp giấy trắng vuông E1413 + Nắp PET 1413",
+     "handle": "hop-giay-trang-1413-nap-pet",
+     "url": "https://ecoeshop.vn/products/hop-giay-trang-1413-nap-pet",
+     "image": "https://cdn.hstatic.net/products/200000438087/thi_t_k__ch_a_c__t_n__2__448e16738e0945c8bbdce72710f9402e.png",
+     "price": 130000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 130000
+      },
+      {
+       "title": "Thùng - 1000 cái",
+       "price": 2000000
+      }
+     ]
+    },
+    {
+     "title": "Hộp giấy trắng paper box with clear PET lid 1985",
+     "handle": "hop-giay-trang-e1985-nap-pet",
+     "url": "https://ecoeshop.vn/products/hop-giay-trang-e1985-nap-pet",
+     "image": "https://cdn.hstatic.net/products/200000438087/thi_t_k__ch_a_c__t_n__1__2c00b380a3e5449087d9099dd9721633.png",
+     "price": 130000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 130000
+      },
+      {
+       "title": "Thùng - 500 cái",
+       "price": 1000000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "hop-giay-kraft",
+   "name": "Hộp giấy kraft",
+   "products": [
+    {
+     "title": "Tô giấy kraft chữ nhật nắp PET 750 ml",
+     "handle": "hop-giay-kraft-750ml-nap-pet",
+     "url": "https://ecoeshop.vn/products/hop-giay-kraft-750ml-nap-pet",
+     "image": "https://cdn.hstatic.net/products/200000438087/eco-friendly_kraft_paper_food_container___d__s_a_551dfe4336cd4891a778d9e7fa0bfb23.png",
+     "price": 170000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 170000
+      },
+      {
+       "title": "Thùng - 300 cái",
+       "price": 780000
+      }
+     ]
+    },
+    {
+     "title": "Tô giấy kraft chữ nhật nắp PET 1000 ml",
+     "handle": "hop-giay-kraft-1000ml-nap-pet",
+     "url": "https://ecoeshop.vn/products/hop-giay-kraft-1000ml-nap-pet",
+     "image": "https://cdn.hstatic.net/products/200000438087/kraft_food_storage_container_with_lid___d__s_a_88b8ba5fd64242db8a7b8e4c52d99618.png",
+     "price": 195000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 195000
+      },
+      {
+       "title": "Thùng - 300 cái",
+       "price": 900000
+      }
+     ]
+    },
+    {
+     "title": "Khay giấy kraft sushi nắp PET chống đọng sương #7 SS07",
+     "handle": "khay-giay-kraft-sushi-tray-with-pet-lid-7-ss07",
+     "url": "https://ecoeshop.vn/products/khay-giay-kraft-sushi-tray-with-pet-lid-7-ss07",
+     "image": "https://cdn.hstatic.net/products/200000438087/thi_t_k__ch_a_c__t_n__4__46905f742d144cc8896a72b6de522621.png",
+     "price": 320000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 320000
+      },
+      {
+       "title": "Thùng - 200 cái",
+       "price": 980000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "hop-ba-mia",
+   "name": "Hộp bã mía",
+   "products": [
+    {
+     "title": "Hộp giấy bã mía FEST BIO BROWN TAKEAWAY BOX 450ml",
+     "handle": "hop-ba-mia-fest-brown-450ml-hop-xoi",
+     "url": "https://ecoeshop.vn/products/hop-ba-mia-fest-brown-450ml-hop-xoi",
+     "image": "https://cdn.hstatic.net/products/200000438087/b5c971aa-9997-4c02-9eec-2f5bd851e19e_a33c9f10e77b41bb8bb8d846ebaff43a.png",
+     "price": 125000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 125000
+      },
+      {
+       "title": "Thùng - 600 cái",
+       "price": 1140000
+      }
+     ]
+    },
+    {
+     "title": "Hộp giấy bã mía FEST BIO BROWN TAKEAWAY BOX 600ml",
+     "handle": "hop-ba-mia-600ml",
+     "url": "https://ecoeshop.vn/products/hop-ba-mia-600ml",
+     "image": "https://cdn.hstatic.net/products/200000438087/b5c971aa-9997-4c02-9eec-2f5bd851e19e_5cb49ac46ed641d8b0190f6c0c440185.png",
+     "price": 155000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 155000
+      },
+      {
+       "title": "Thùng - 600 cái",
+       "price": 1440000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "khay-nhom",
+   "name": "Khay nhôm",
+   "products": [
+    {
+     "title": "Khay nhôm 3 ngăn 750ml + nắp",
+     "handle": "khay-nhom-3-ngan-dung-thuc-an-750ml",
+     "url": "https://ecoeshop.vn/products/khay-nhom-3-ngan-dung-thuc-an-750ml",
+     "image": "https://product.hstatic.net/200000438087/product/1000040177_daf2c9fad71d4478936b476225f5fab5_large_6797330462244e619b2265e2a6fb2b68.png",
+     "price": 775000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 125 cái",
+       "price": 775000
+      },
+      {
+       "title": "Thùng - 1000 cái",
+       "price": 4800000
+      }
+     ]
+    },
+    {
+     "title": "Khay nhôm 250ml + nắp",
+     "handle": "khay-nhom-dung-thuc-an-250ml",
+     "url": "https://ecoeshop.vn/products/khay-nhom-dung-thuc-an-250ml",
+     "image": "https://product.hstatic.net/200000438087/product/250_4a605a2dd7364d87bbf798eb95421984.png",
+     "price": 300000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 125 cái",
+       "price": 300000
+      },
+      {
+       "title": "Thùng - 2000 cái",
+       "price": 3600000
+      }
+     ]
+    },
+    {
+     "title": "Khay nhôm 350ml + nắp",
+     "handle": "khay-nhom-dung-thuc-an-350ml",
+     "url": "https://ecoeshop.vn/products/khay-nhom-dung-thuc-an-350ml",
+     "image": "https://product.hstatic.net/200000438087/product/350_0e77dd889cfd459692eaafc8d16ebcda.png",
+     "price": 387500,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 125 cái",
+       "price": 387500
+      },
+      {
+       "title": "Thùng - 1000 cái",
+       "price": 2400000
+      }
+     ]
+    },
+    {
+     "title": "Khay nhôm 650ml + nắp",
+     "handle": "khay-nhom-dung-thuc-an-650ml",
+     "url": "https://ecoeshop.vn/products/khay-nhom-dung-thuc-an-650ml",
+     "image": "https://product.hstatic.net/200000438087/product/650_6396ffea7d1d46889b5ca6458b8b414e.png",
+     "price": 200000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 200000
+      },
+      {
+       "title": "Thùng - 1000 cái",
+       "price": 2400000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "to-giay",
+   "name": "Tô giấy",
+   "products": [
+    {
+     "title": "Tô giấy kraft chữ nhật nắp PET 750 ml",
+     "handle": "hop-giay-kraft-750ml-nap-pet",
+     "url": "https://ecoeshop.vn/products/hop-giay-kraft-750ml-nap-pet",
+     "image": "https://cdn.hstatic.net/products/200000438087/eco-friendly_kraft_paper_food_container___d__s_a_551dfe4336cd4891a778d9e7fa0bfb23.png",
+     "price": 170000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 170000
+      },
+      {
+       "title": "Thùng - 300 cái",
+       "price": 780000
+      }
+     ]
+    },
+    {
+     "title": "Tô giấy kraft chữ nhật nắp PET 1000 ml",
+     "handle": "hop-giay-kraft-1000ml-nap-pet",
+     "url": "https://ecoeshop.vn/products/hop-giay-kraft-1000ml-nap-pet",
+     "image": "https://cdn.hstatic.net/products/200000438087/kraft_food_storage_container_with_lid___d__s_a_88b8ba5fd64242db8a7b8e4c52d99618.png",
+     "price": 195000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 195000
+      },
+      {
+       "title": "Thùng - 300 cái",
+       "price": 900000
+      }
+     ]
+    },
+    {
+     "title": "Bộ tô giấy kraft 500ml + nắp nhựa PP (món nóng)",
+     "handle": "to-giay-kraft-500ml-nap-pp-mon-nong",
+     "url": "https://ecoeshop.vn/products/to-giay-kraft-500ml-nap-pp-mon-nong",
+     "image": "https://cdn.hstatic.net/products/200000438087/thi_t_k__ch_a_c__t_n__1__139ced743b1a4a4cbdf80e5b93fda6c1.png",
+     "price": 97500,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 97500
+      },
+      {
+       "title": "Thùng - 500 cái",
+       "price": 750000
+      }
+     ]
+    },
+    {
+     "title": "Tô giấy kraft 150 - 750ml (không nắp)",
+     "handle": "to-giay-kraft-750ml-khong-nap",
+     "url": "https://ecoeshop.vn/products/to-giay-kraft-750ml-khong-nap",
+     "image": "https://cdn.hstatic.net/products/200000438087/1_33c06afa15a542b3844d0810d3ef8eab.png",
+     "price": 65000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 65000
+      },
+      {
+       "title": "Thùng - 500 cái",
+       "price": 500000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "ly-giay",
+   "name": "Ly giấy",
+   "products": [
+    {
+     "title": "Ly giấy 14oz - nền vàng",
+     "handle": "ly-giay-cafe-360ml-in-san-nen-vang",
+     "url": "https://ecoeshop.vn/products/ly-giay-cafe-360ml-in-san-nen-vang",
+     "image": "https://product.hstatic.net/200000438087/product/1000042278_e36b4cc1cdf043f1ae2f1738b9c6335e.jpg",
+     "price": 65000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 65000
+      },
+      {
+       "title": "Thùng - 1000 cái",
+       "price": 1000000
+      }
+     ]
+    },
+    {
+     "title": "Ly giấy 14oz - Coffee",
+     "handle": "ly-giay-cafe-360ml-in-san-coffee",
+     "url": "https://ecoeshop.vn/products/ly-giay-cafe-360ml-in-san-coffee",
+     "image": "https://product.hstatic.net/200000438087/product/1000042274_d9788a0f296041988a03d679fe631449.jpg",
+     "price": 65000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 65000
+      },
+      {
+       "title": "Thùng - 1000 cái",
+       "price": 1000000
+      }
+     ]
+    },
+    {
+     "title": "Ly giấy kraft 2 lớp 480ml - 16oz 265gsm",
+     "handle": "ly-giay-kraft-16oz-450ml-upc004",
+     "url": "https://ecoeshop.vn/products/ly-giay-kraft-16oz-450ml-upc004",
+     "image": "https://product.hstatic.net/200000438087/product/30_451e48cde2854e10944b814d034aa351.png",
+     "price": 47500,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 25 cái",
+       "price": 47500
+      },
+      {
+       "title": "Thùng - 500 cái",
+       "price": 725000
+      }
+     ]
+    },
+    {
+     "title": "Ly giấy kraft 2 lớp 650ml - 22oz 265gsm",
+     "handle": "ly-giay-kraft-2-lop-650ml-22oz",
+     "url": "https://ecoeshop.vn/products/ly-giay-kraft-2-lop-650ml-22oz",
+     "image": "https://product.hstatic.net/200000438087/product/to_cau__7__f772e3b4ff8941e99e262c61ad3fa0bd.png",
+     "price": 42000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 20 cái",
+       "price": 42000
+      },
+      {
+       "title": "Thùng - 500 cái",
+       "price": 800000
+      }
+     ]
+    },
+    {
+     "title": "Ly giấy Ripple wall paper cup 8oz",
+     "handle": "ly-giay-kraft-240ml-8-oz-ripple-wall-cach-nhiet-ly-gon-song",
+     "url": "https://ecoeshop.vn/products/ly-giay-kraft-240ml-8-oz-ripple-wall-cach-nhiet-ly-gon-song",
+     "image": "https://cdn.hstatic.net/products/200000438087/8_5e66237ab4b742daa5e9863751c1cc6f.png",
+     "price": 61250,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 25 cái",
+       "price": 61250
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "ong-hut-giay",
+   "name": "Ống hút giấy",
+   "products": [
+    {
+     "title": "Ống hút giấy Ø6x110mm - màu trắng",
+     "handle": "ong-hut-giay-6-110mm-mau-trang-ngan",
+     "url": "https://ecoeshop.vn/products/ong-hut-giay-6-110mm-mau-trang-ngan",
+     "image": "https://product.hstatic.net/200000438087/product/4ae88b0f7ab4c589855ea7596b5a0e4_52507fad88e84ad1b93eee7196b1b502_large_9ce584a4667449a7a662c185f5b1e07a.png",
+     "price": 50000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 250 cái",
+       "price": 50000
+      },
+      {
+       "title": "Thùng - 10000 cái",
+       "price": 1500000
+      }
+     ]
+    },
+    {
+     "title": "Ống hút bã mía PLA phi 8x210mm",
+     "handle": "ong-hut-ba-mia-pla-phi-8x210mm",
+     "url": "https://ecoeshop.vn/products/ong-hut-ba-mia-pla-phi-8x210mm",
+     "image": "https://cdn.hstatic.net/products/200000438087/1a4846f4-b220-40cf-bd9c-149774245c95__1__0864927720ec471f935a6a56fae83bf9.png",
+     "price": 50000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 100 cái",
+       "price": 50000
+      },
+      {
+       "title": "Thùng - 3000 cái",
+       "price": 1050000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "khay-giay",
+   "name": "Khay giấy",
+   "products": [
+    {
+     "title": "Khay giấy kraft sushi nắp PET chống đọng sương #4 SS04",
+     "handle": "khay-giay-kraft-sushi-tray-with-pet-lid-4-ss04",
+     "url": "https://ecoeshop.vn/products/khay-giay-kraft-sushi-tray-with-pet-lid-4-ss04",
+     "image": "https://cdn.hstatic.net/products/200000438087/thi_t_k__ch_a_c__t_n__3__fb4cddb305d3455fb4696477623547ee.png",
+     "price": 225000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 225000
+      },
+      {
+       "title": "Thùng - 300 cái",
+       "price": 1050000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "dia-giay",
+   "name": "Dĩa giấy",
+   "products": [
+    {
+     "title": "Dĩa giấy bã mía FEST BIO BROWN PLATE 7inches - Ø18cm",
+     "handle": "dia-ba-mia-fest-brown-7in-18cm",
+     "url": "https://ecoeshop.vn/products/dia-ba-mia-fest-brown-7in-18cm",
+     "image": "https://product.hstatic.net/200000438087/product/bp011_a245e3c5f8524effb00e0c9eb27c4f3f.png",
+     "price": 75000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 75000
+      },
+      {
+       "title": "Thùng - 1000 cái",
+       "price": 1150000
+      }
+     ]
+    },
+    {
+     "title": "Dĩa giấy bã mía FEST BIO BROWN PLATE 8 inches - Ø19.5cm",
+     "handle": "dia-ba-mia-fest-brown-8in-19-5cm",
+     "url": "https://ecoeshop.vn/products/dia-ba-mia-fest-brown-8in-19-5cm",
+     "image": "https://product.hstatic.net/200000438087/product/bp008_b5aa0360f0c144a79c71fd6202c99ad7.png",
+     "price": 105000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 105000
+      },
+      {
+       "title": "Thùng - 600 cái",
+       "price": 960000
+      }
+     ]
+    },
+    {
+     "title": "Dĩa giấy bã mía FEST BIO BROWN PLATE 9inches - Ø23cm",
+     "handle": "dia-ba-mia-fest-brown-9in-23cm",
+     "url": "https://ecoeshop.vn/products/dia-ba-mia-fest-brown-9in-23cm",
+     "image": "https://product.hstatic.net/200000438087/product/bp013_e0f03f8f0202414a9e68023f4edf9bf8.png",
+     "price": 125000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 125000
+      },
+      {
+       "title": "Thùng - 800 cái",
+       "price": 1520000
+      }
+     ]
+    },
+    {
+     "title": "Dĩa giấy bã mía FEST BIO BROWN PLATE 10inches - Ø26cm",
+     "handle": "dia-ba-mia-fest-brown-10in-26cm",
+     "url": "https://ecoeshop.vn/products/dia-ba-mia-fest-brown-10in-26cm",
+     "image": "https://product.hstatic.net/200000438087/product/bp005_5380a09bd2b34c15a5a6b1a687aa9922.png",
+     "price": 170000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 170000
+      },
+      {
+       "title": "Thùng - 600 cái",
+       "price": 1560000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "tui-giay",
+   "name": "Túi giấy",
+   "products": [
+    {
+     "title": "Túi giấy bánh mì (Rộng*Hông*Cao ~ 10x4x23cm)",
+     "handle": "tui-giay-banh-my",
+     "url": "https://ecoeshop.vn/products/tui-giay-banh-my",
+     "image": "https://product.hstatic.net/200000438087/product/hinh_web_bo_sung-10_c9a8954cc6b441a797cf9eb3c15e8cba.png",
+     "price": 212500,
+     "compare_at_price": 250000,
+     "variants": [
+      {
+       "title": "Lốc - 500 cái",
+       "price": 212500
+      },
+      {
+       "title": "Kiện - 5000 cái",
+       "price": 1487500
+      }
+     ]
+    },
+    {
+     "title": "Túi giấy 7x30cm KN11D bánh mì que",
+     "handle": "tui-giay-banh-my-que-7x30cm",
+     "url": "https://ecoeshop.vn/products/tui-giay-banh-my-que-7x30cm",
+     "image": "https://product.hstatic.net/200000438087/product/4_7282633ab4ba46fa9b88a1936f04a27e.png",
+     "price": 50000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Thùng - 8000 cái",
+       "price": 2800000
+      },
+      {
+       "title": "Lốc - 100 cái",
+       "price": 50000
+      }
+     ]
+    },
+    {
+     "title": "Túi giấy kraft (Rộng*Hông*Cao ~ 9.5x4.8x23cm KV31) bánh mì",
+     "handle": "tui-giay-kraft-banh-my-r9-5xh4-8xc23cm",
+     "url": "https://ecoeshop.vn/products/tui-giay-kraft-banh-my-r9-5xh4-8xc23cm",
+     "image": "https://product.hstatic.net/200000438087/product/20231025_152019_c4ffe47aaacd4c26b9d383c86d3daf29.png",
+     "price": 55000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 100 cái",
+       "price": 55000
+      },
+      {
+       "title": "Thùng - 3500 cái",
+       "price": 1400000
+      }
+     ]
+    },
+    {
+     "title": "Túi giấy kraft (Rộng*Hông*Cao ~ 20x10x25cm) quai xách",
+     "handle": "tui-giay-kraft-r20-c25-h10cm",
+     "url": "https://ecoeshop.vn/products/tui-giay-kraft-r20-c25-h10cm",
+     "image": "https://product.hstatic.net/200000438087/product/hinh_web_bo_sung-18-1_ef3da9668c9f474c94463f6a60940af5.png",
+     "price": 190000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 190000
+      },
+      {
+       "title": "Thùng - 400 cái",
+       "price": 1160000
+      }
+     ]
+    },
+    {
+     "title": "Túi giấy kraft (Rộng*Hông*Cao ~ 20x13x25cm) quai xách 120gsm",
+     "handle": "tui-giay-kraft-20x13x25cm-quai-xach-120gsm",
+     "url": "https://ecoeshop.vn/products/tui-giay-kraft-20x13x25cm-quai-xach-120gsm",
+     "image": "https://cdn.hstatic.net/products/200000438087/hinh_web_bo_sung-18-1_520fe358d00c40c486d7539a71059c1a.png",
+     "price": 195000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 195000
+      },
+      {
+       "title": "Thùng - 350 cái",
+       "price": 1050000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "phu-kien",
+   "name": "Phụ kiện",
+   "products": [
+    {
+     "title": "Bộ 4 món (muỗng gỗ, đũa, giấy, tăm)",
+     "handle": "bo-muong-go-dua-tam-giay",
+     "url": "https://ecoeshop.vn/products/bo-muong-go-dua-tam-giay",
+     "image": "https://cdn.hstatic.net/products/200000438087/b3799ade-1db1-491b-8991-e9863d04d121_f719287d670144a3904a3e35238a2ca4.jpg",
+     "price": 82500,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 82500
+      },
+      {
+       "title": "Thùng - 500 cái",
+       "price": 625000
+      }
+     ]
+    },
+    {
+     "title": "Bộ 4 món (Dao, thìa, dĩa gỗ, giấy)",
+     "handle": "bo-dao-muong-nia-go-khan-giay-boc-mang-giay-kraft",
+     "url": "https://ecoeshop.vn/products/bo-dao-muong-nia-go-khan-giay-boc-mang-giay-kraft",
+     "image": "https://cdn.hstatic.net/products/200000438087/267a24f9-fcc3-4329-9d3f-05684f43560e_1d3a780148064b22b3c8d8f453d4ab45.jpg",
+     "price": 135000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 135000
+      },
+      {
+       "title": "Thùng - 500 cái",
+       "price": 1050000
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "ly-to-hop-nhua",
+   "name": "Đồ nhựa",
+   "products": [
+    {
+     "title": "Ly nhựa PET 93 - 12/14oz (T) 1-73 (350ml)",
+     "handle": "ly-nhua-pet-d92-12-14oz-350ml-hang-mong",
+     "url": "https://ecoeshop.vn/products/ly-nhua-pet-d92-12-14oz-350ml-hang-mong",
+     "image": "https://product.hstatic.net/200000438087/product/ly_pet_12oz_d92_bf582b1207234eeaafcc278959bef9c7.jpg",
+     "price": 31875,
+     "compare_at_price": 37500,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 31875
+      },
+      {
+       "title": "Thùng - 1000 cái",
+       "price": 467500
+      }
+     ]
+    },
+    {
+     "title": "Nắp nhựa cầu PET 93 (T- Dấu Thập) 3-3.0",
+     "handle": "nap-ly-nhua-pet-cau-d92-lo-chu-thap",
+     "url": "https://ecoeshop.vn/products/nap-ly-nhua-pet-cau-d92-lo-chu-thap",
+     "image": "https://product.hstatic.net/200000438087/product/nap_pet_cau_98_chu_thap_17dcddeb7ac442588702af19233c955e.jpg",
+     "price": 20000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 20000
+      },
+      {
+       "title": "Thùng - 2000 cái",
+       "price": 600000
+      }
+     ]
+    },
+    {
+     "title": "Ly nhựa PET 98 - 16oz (T) 1-10.0 500ml",
+     "handle": "ly-nhua-pet-d98-16oz-500ml-hang-mong",
+     "url": "https://ecoeshop.vn/products/ly-nhua-pet-d98-16oz-500ml-hang-mong",
+     "image": "https://product.hstatic.net/200000438087/product/ly_pet_16oz_d98_6632f49938c447228a137fee3ae9495f.jpg",
+     "price": 48875,
+     "compare_at_price": 57500,
+     "variants": [
+      {
+       "title": "Lốc - 50 cái",
+       "price": 48875
+      },
+      {
+       "title": "Thùng - 1000 cái",
+       "price": 722500
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "handle": "giay-ve-sinh-va-tui-rac",
+   "name": "Giấy & túi rác",
+   "products": [
+    {
+     "title": "Nước lau sàn Seifa (can 5 lít)",
+     "handle": "nuoc-lau-san-seifa-can-5-lit",
+     "url": "https://ecoeshop.vn/products/nuoc-lau-san-seifa-can-5-lit",
+     "image": "https://product.hstatic.net/200000438087/product/nuoc-rua-tay-seifa-5-kg-2-500x500__1__208d1dd2981843299e7a8c516f3827db.png",
+     "price": 151000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Can - 1 can",
+       "price": 151000
+      },
+      {
+       "title": "Thùng - 4 can",
+       "price": 464000
+      }
+     ]
+    },
+    {
+     "title": "Nước rửa tay diệt khuẩn Seifa (can 5 lít)",
+     "handle": "nuoc-rua-tay-seifa-can-5-lit",
+     "url": "https://ecoeshop.vn/products/nuoc-rua-tay-seifa-can-5-lit",
+     "image": "https://product.hstatic.net/200000438087/product/nuoc-rua-tay-seifa-5-kg-2-500x500__1__417884149ea74de2bd554664ce46f99e.png",
+     "price": 240000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Can - 5 lít",
+       "price": 240000
+      },
+      {
+       "title": "Thùng - 20 lít",
+       "price": 740000
+      }
+     ]
+    },
+    {
+     "title": "Khăn giấy Vinatissue 280T",
+     "handle": "khan-giay-lua-premier-280-to",
+     "url": "https://ecoeshop.vn/products/khan-giay-lua-premier-280-to",
+     "image": "https://product.hstatic.net/200000438087/product/new_project_1a160e23ff0543c98e477cfb1dda117c.png",
+     "price": 26000,
+     "compare_at_price": null,
+     "variants": [
+      {
+       "title": "Lốc - 1 gói",
+       "price": 26000
+      },
+      {
+       "title": "Thùng - 36 gói",
+       "price": 720000
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "product_details": [
+  {
+   "title": "Hộp giấy FEST CHOICE TAKEAWAY BOX 725ml (hộp cơm)",
+   "handle": "hop-giay-dung-thuc-an-fest-choice-725ml-pb001",
+   "images": [
+    "https://product.hstatic.net/200000438087/product/b001__1__1af5efbec7cf4abfa1c2c0053c80ec22.png",
+    "https://product.hstatic.net/200000438087/product/fest-choice-takeway-box-725ml-01_7ad433a4886d42d5af52708839030cc5.jpg",
+    "https://product.hstatic.net/200000438087/product/choice-05_f93c5a11856240c8a9ca90ca8522364b_875aeabb4ebc4c07b25d135fbf06cc3b.jpg",
+    "https://product.hstatic.net/200000438087/product/logo_eco_a4-02_d6eb930f1b6642b0ac933e6c85de90db_ed076f1076174a898229cfeed0f9fa85.jpg",
+    "https://product.hstatic.net/200000438087/product/logo_eco_a5-10_2417dc62e81a4f63bb4c5b05eb130a5d_a06638d999254a7ebc535eac60615f8b.jpg"
+   ],
+   "variants": [
+    {
+     "title": "Lốc - 50 cái",
+     "price": 125000,
+     "sku": "PB001"
+    },
+    {
+     "title": "Thùng - 800 cái",
+     "price": 1520000,
+     "sku": "PB001"
+    }
+   ],
+   "body_html": "<p style=\"text-align: justify;\"><strong>Hộp giấy Fest Choice 725ml (Hộp cơm giấy)</strong> là một sản phẩm đóng gói thực phẩm lý tưởng cho những doanh nghiệp đang tìm kiếm một giải pháp bảo quản thực phẩm tiện lợi, an toàn và thân thiện với môi trường. Với dung tích 725ml, sản phẩm này có thể đựng nhiều loại thực phẩm khác nhau, từ cơm, mì, salad cho đến đồ ăn nhanh hoặc món tráng miệng.</p><h2>Thông tin cơ bản</h2><ul><li>Nhà sản xuất: Tập đoàn SCG Thái Lan</li><li>Nhập khẩu: Công ty TNHH ECO PRO</li><li>Mã sản phẩm: PB001</li><li>Chất liệu: 100% giấy tiếp xúc thực phẩm</li><li>Dung tích: 725ml</li><li>Kích thước sản phẩm: R124xD177xC51 mm</li><li>Đóng gói: 800 cái/ thùng [50 cái/ lốc * 16 lốc/ thùng]</li><li>Công dụng: hộp giấy đựng thức ăn như cơm, xôi, bánh,...</li></ul><h2>Tính năng nổi bật</h2><ul><li>Chống thấm nước, chống thấm dầu, không mềm rã khi đựng thức ăn</li><li>An toàn với thực phẩm nóng, nước sôi 100oC</li><li>Có lỗ thoát hơi 2 bên cạnh nắp, giúp thức ăn giữ được độ dòn và hương vị nguyên bản</li><li>Thiết kế nút hóa thông minh, không cần dây ràng</li><li>Kết cấu chắn chắn, giúp chồng nhiều hộp lên nhau không bị xẹp</li><li>Tái chế được, thân thiện với môi trường</li></ul>",
+   "specs": [
+    "Mã sản phẩm: PB001",
+    "Xuất xứ: Thái Lan",
+    "Chất liệu: 100% giấy tiếp xúc thực phẩm",
+    "Đóng gói: 800 cái/thùng (50 cái/lốc x 16 lốc/thùng)",
+    "Kích thước: R x D x C: 124 x 177 x 51 mm",
+    "Dung tích: 725ml",
+    "Tính năng: An toàn với thức ăn nóng đến 100oC, chồng được nhiều lớp, khóa chắc chắn, tái chế"
+   ]
+  },
+  {
+   "title": "Tô giấy FEST BIO BOWL 500ml",
+   "handle": "to-giay-dung-mot-lan-fest-bio-500",
+   "images": [
+    "https://product.hstatic.net/200000438087/product/l00_cd4ff8065e514df7be2d1fb29395c70d_large_a19dfd922edb4ac59dc946d52424f663.png",
+    "https://product.hstatic.net/200000438087/product/fest-bio-bowl-500-ml-01__1__cd6c60980fbd4cc0bd56d78f062877ba_629bdc9b4f124bb59ace8d9ef84d868c.jpg",
+    "https://product.hstatic.net/200000438087/product/logo_eco_a10-03_a6fe09e968e2481f9a764ba5bc46d04d_02a4a5922390494bb22132a6c5b8eacd.jpg",
+    "https://product.hstatic.net/200000438087/product/logo_eco_a10-04_23bcf5b5eb3e4b0b96bab99eca3de854_fcb8ab0273ea4bc892db8a1c38d4a6f1.jpg",
+    "https://product.hstatic.net/200000438087/product/bio-10_965e012c6d1446c190daa6c7dd71ad48.jpg"
+   ],
+   "variants": [
+    {
+     "title": "Lốc - 50 cái",
+     "price": 89250,
+     "sku": "L001"
+    },
+    {
+     "title": "Thùng - 600 cái",
+     "price": 816000,
+     "sku": "L001"
+    }
+   ],
+   "body_html": "<h1>TÔ GIẤY FEST BIO 500ML</h1><p style=\"text-align: justify;\"><strong>Tô giấy Fest Bio 500ml</strong> là dòng sản phẩm cao cấp, thân thiện với môi trường được nhập khẩu từ Thái Lan, sản phẩm có thiết kế thông minh với những xẻ gân định hình giúp sản phẩm trở nên vô cùng chắc chắn, chất lượng và mẫu mã sang trọng không hề khác biệt <strong>tô sứ</strong> cùng những tính năng hết sức đặc biệt.</p><p><u><strong>Thông tin cơ bản:</strong></u></p><p>Nhà sản xuất: Tập đoàn SCG Thái Lan</p><p>Nhập khẩu: Công ty TNHH ECO PRO</p><p>Mã sản phẩm: L001</p><p>Chất liệu: 100% bột giấy nguyên chất từ cây bạch đàn, không sử dụng hóa chất độc hại</p><p>Dung tích: 500ml</p><p>Kích thước sản phẩm: Ø160xC55mm</p><p>Đóng gói: 600 cái/ thùng [50 cái/ lốc * 12 lốc/ thùng]</p><p>Công dụng: sử dụng chứa đựng thực phẩm giống như tô sứ, thích hợp cho tiệc tùng, picnic, hội thảo....</p><p><u><strong>Tính năng nổi bật:</strong></u></p><p>Tô giấy sử dụng trong lò vi sóng (microwave) tối đa 800W trong 5 phút. Sử dụng trong lò nướng tối đa 180oC trong 30 phút. An toàn với thực phẩm nóng và dầu chiên. Phù hợp với mọi loại thức ăn khô hoặc có nước. Phân hủy sinh học hoàn toàn trong môi trường đất chỉ với 120 ngày.</p>",
+   "specs": [
+    "Nhà sản xuất: Tập đoàn SCG Thái Lan",
+    "Mã sản phẩm: L001",
+    "Chất liệu: 100% bột giấy nguyên chất từ cây bạch đàn",
+    "Dung tích: 500ml",
+    "Kích thước: Ø160xC55mm",
+    "Đóng gói: 600 cái/thùng (50 cái/lốc x 12 lốc/thùng)"
+   ]
+  }
+ ],
+ "blog": [
+  {
+   "title": "[OFFICAL] Ecoeshop.vn cung cấp dĩa giấy cho chuỗi DOMINO'S PIZZA",
+   "url": "https://ecoeshop.vn/blogs/news/offical-ecoeshop-vn-cung-cap-dia-giay-cho-chuoi-domino-s-pizza",
+   "image": null
+  },
+  {
+   "title": "[OFFICAL] Ecoeshop.vn cung cấp hộp giấy đựng thức ăn Fest Bio cho chuỗi PHÚC LONG TEA",
+   "url": "https://ecoeshop.vn/blogs/news/offical-ecoeshop-cung-cap-hop-giay-dung-thuc-an-cho-chuoi-phuc-long",
+   "image": null
+  },
+  {
+   "title": "[CHÍNH THỨC] Ecoeshop.vn Hợp Tác Cung Cấp Các Sản Phẩm Giấy Cho Ông Lớn Nova FnB Từ Tháng 4.2022",
+   "url": "https://ecoeshop.vn/blogs/news/chinh-thuc-ecoeshop-vn-hop-tac-cung-cap-cac-san-pham-giay-cho-ong-lo",
+   "image": null
+  },
+  {
+   "title": "The Coffee House Chọn EcoEshop.vn Làm Nhà Cung Cấp Hộp Giấy Đựng Thức Ăn Cho Dự Án Mới!",
+   "url": "https://ecoeshop.vn/blogs/news/hop-tac-cung-cap-cac-mau-hop-giay-fest-bio-cho-chuoi-cafe-the-coffee-h",
+   "image": null
+  },
+  {
+   "title": "EcoEshop.vn Khẳng Định Tiếp Tục Đồng Hành Cùng Cộng đồng FnB Trong Năm 2023!",
+   "url": "https://ecoeshop.vn/blogs/news/tokio",
+   "image": null
+  },
+  {
+   "title": "Đồng Hành Cùng Dự Án Thay Đổi Bao Bì Thân Thiện Môi Trường Cho Big C Việt Nam!",
+   "url": "https://ecoeshop.vn/blogs/news/big-c",
+   "image": null
+  }
+ ]
+}

@@ -1438,3 +1438,46 @@ body.drawer-lock .to-top{
   /* Keep the contact popup within the viewport */
   .contact-menu{max-width:calc(100vw - 24px);}
 }
+
+/* ===================== REAL PRODUCT IMAGES IN CARDS ===================== */
+.pcard__img img{width:100%;height:100%;object-fit:contain;display:block;}
+.pcard__cat{font-size:11.5px;color:var(--muted);margin-top:6px;text-transform:uppercase;letter-spacing:.3px;}
+.ncard__img img{width:100%;height:100%;object-fit:cover;display:block;}
+
+/* ===================== PRODUCT DETAIL GALLERY (real images) ===================== */
+.pd-main-img img{width:100%;height:100%;object-fit:contain;display:block;}
+.pd-thumbs{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap;}
+.pd-thumbs img{width:60px;height:60px;object-fit:contain;border:1px solid var(--line);border-radius:8px;padding:4px;cursor:pointer;background:#fff;transition:border-color .2s;}
+.pd-thumbs img:hover{border-color:var(--orange);}
+
+/* ===================== MOBILE: center about stats ===================== */
+@media (max-width:768px){
+  .about-stats{align-items:center;text-align:center;}
+  .stat{text-align:center;width:100%;}
+}
+
+/* ===================== MOBILE: extra vertical gap so ribbon tags don't overlap ===================== */
+@media (max-width:768px){
+  .product-grid,
+  .related-grid,
+  .greviews__grid{row-gap:26px;}
+}
+
+/* ===================== MOBILE: product detail overflow fixes ===================== */
+@media (max-width:768px){
+  .rev-item__top{flex-wrap:wrap;}
+  .pd-meta{flex-wrap:wrap;}
+  .breadcrumb{overflow-wrap:break-word;}
+  /* Safety net: never allow horizontal page scroll on small screens */
+  html,body{overflow-x:clip;}
+}
+
+/* ===================== MOBILE: product gallery must shrink to viewport ===================== */
+@media (max-width:900px){
+  .pd-top{grid-template-columns:minmax(0,1fr);}
+  .pd-gallery,
+  .pd-info{min-width:0;max-width:100%;}
+  .pd-main,.pd-main-img{max-width:100%;}
+  .pd-main-img img{max-width:100%;}
+  .pd-thumbs{flex-wrap:wrap;}
+}
