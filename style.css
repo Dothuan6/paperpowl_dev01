@@ -1481,3 +1481,21 @@ body.drawer-lock .to-top{
   .pd-main-img img{max-width:100%;}
   .pd-thumbs{flex-wrap:wrap;}
 }
+
+/* ===================== MOBILE: 2-col variants + centered qty ===================== */
+@media (max-width:768px){
+  .pd-variants{grid-template-columns:1fr 1fr;}
+  .pd-variant{border-right:1px solid var(--line);border-bottom:none;}
+  .pd-variant:last-child{border-right:none;}
+  .pd-actions{flex-direction:column;align-items:center;}
+  .pd-qty{align-self:center;}
+  .pd-add{width:100%;}
+}
+
+/* ===================== MOBILE: specs table as 2 columns ===================== */
+@media (max-width:768px){
+  .pd-specs table{display:table;table-layout:fixed;width:100%;white-space:normal;overflow:visible;}
+  .pd-specs tr{display:table-row;}
+  .pd-specs td{display:table-cell;width:auto;white-space:normal;word-break:break-word;vertical-align:top;}
+  .pd-specs td:first-child{width:38%;}
+}
