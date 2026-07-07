@@ -629,7 +629,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
 .art-helpful .btns{margin-top:10px;display:flex;gap:10px;justify-content:center;}
 .art-helpful .btns button{border:1px solid var(--line);border-radius:6px;padding:6px 24px;background:#fff;transition:all .2s;font-weight:600;}
 .art-helpful .btns button:hover{border-color:var(--orange);color:var(--orange-dark);}
-.related-title{background:#2b2b2b;color:#fff;font-size:13px;font-weight:700;padding:8px 18px;border-radius:4px;display:inline-block;letter-spacing:1px;margin:26px 0 16px;}
+.related-title{background:var(--orange-soft);color:var(--orange-dark);font-size:13px;font-weight:700;padding:8px 18px;border-radius:4px;display:inline-block;letter-spacing:1px;margin:26px 0 16px;}
 .related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;}
 .rel-card__img{height:120px;border-radius:8px;background:linear-gradient(135deg,#efe3d3,#e3d2bb);margin-bottom:8px;}
 .rel-card a{font-size:13px;font-weight:600;color:var(--ink);line-height:1.4;display:block;}
