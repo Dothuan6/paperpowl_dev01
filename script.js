@@ -184,6 +184,63 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
+  /* ---------- Mobile cart bottom-sheet enhancement ---------- */
+  (function cartSheet() {
+    const wrap = document.querySelector('.cart-wrap');
+    const dropdown = wrap && wrap.querySelector('.cart-dropdown');
+    if (!wrap || !dropdown) return;
+
+    // Sticky sheet top: drag handle + orange summary bar (count · total · close)
+    const top = document.createElement('div');
+    top.className = 'cart-sheet-top';
+    top.innerHTML =
+      '<span class="cart-sheet-handle" aria-hidden="true"></span>' +
+      '<div class="cart-sheet-summary">' +
+        '<span class="cart-sheet-count">0 sản phẩm</span>' +
+        '<span class="cart-sheet-total">0₫</span>' +
+        '<button type="button" class="cart-sheet-close">Đóng</button>' +
+      '</div>';
+    dropdown.insertBefore(top, dropdown.firstChild);
+
+    // Backdrop (mobile only, shown via CSS)
+    const backdrop = document.createElement('div');
+    backdrop.className = 'cart-backdrop';
+    document.body.appendChild(backdrop);
+
+    const countEl = top.querySelector('.cart-sheet-count');
+    const totalEl = top.querySelector('.cart-sheet-total');
+
+    function refresh() {
+      const n = dropdown.querySelectorAll('.cart-item').length;
+      countEl.textContent = n + ' sản phẩm';
+      const totalB = dropdown.querySelector('.cart-dropdown__total b');
+      if (totalB) totalEl.textContent = totalB.textContent.trim();
+    }
+    function isMobile() { return window.matchMedia('(max-width:768px)').matches; }
+    function sync() {
+      const open = wrap.classList.contains('open');
+      if (open) refresh();
+      if (open && isMobile()) {
+        backdrop.classList.add('show');
+        document.body.classList.add('cart-lock');
+      } else {
+        backdrop.classList.remove('show');
+        document.body.classList.remove('cart-lock');
+      }
+    }
+    function closeCart() { wrap.classList.remove('open'); }
+
+    top.querySelector('.cart-sheet-close').addEventListener('click', closeCart);
+    backdrop.addEventListener('click', closeCart);
+
+    // React to open/close toggled by the existing cart handler
+    new MutationObserver(sync).observe(wrap, { attributes: true, attributeFilter: ['class'] });
+    // Keep totals fresh on qty/remove changes
+    new MutationObserver(refresh).observe(dropdown, { childList: true, subtree: true });
+    window.addEventListener('resize', sync);
+    refresh();
+  })();
+
   /* ---------- Contact float menu ---------- */
   const floatBtns = document.getElementById('floatBtns');
   const contactToggle = document.getElementById('contactToggle');
