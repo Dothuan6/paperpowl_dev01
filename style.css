@@ -1394,3 +1394,26 @@ body.drawer-lock .to-top{
     line-height:1;
   }
 }
+
+/* ===================== MOBILE FIX: công nợ section overflow ===================== */
+@media (max-width:768px){
+  .congno__img img{max-width:100%;height:auto;}
+  .congno__text h2{font-size:22px;line-height:1.25;overflow-wrap:break-word;}
+}
+/* Safety: images never force horizontal overflow on small screens */
+@media (max-width:768px){
+  .congno img,
+  .feature__media img,
+  .about-hero__img img,
+  .quote-banner img{max-width:100%;height:auto;}
+}
+
+/* ===================== GLOBAL RESPONSIVE SAFETY NET ===================== */
+@media (max-width:768px){
+  /* No image may exceed its container width (prevents horizontal overflow) */
+  img{max-width:100%;height:auto;}
+  /* Long unbreakable strings (codes, emails, URLs) wrap instead of overflowing */
+  .pcard h3,.cart-item__name,.co-cart-item__name,
+  .art-title,.blog__main h1,.policy__main h1,.section-title,
+  .footer p,.footer a{overflow-wrap:break-word;}
+}
