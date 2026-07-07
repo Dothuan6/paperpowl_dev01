@@ -1369,3 +1369,28 @@ body.cart-lock{overflow:hidden;}
   .hero__cell--main{aspect-ratio:1.95/1;width:100%;}
   .hero__cell--main img{width:100%;height:100%;object-fit:cover;}
 }
+
+/* ===================== MOBILE FIXES: overlap + cart badge ===================== */
+/* Hide floating contact / to-top buttons while the cart sheet or nav drawer is open
+   so they don't cover the sheet footer (total + button) */
+body.cart-lock .float-btns,
+body.cart-lock .to-top,
+body.drawer-lock .float-btns,
+body.drawer-lock .to-top{
+  opacity:0 !important;
+  visibility:hidden !important;
+  pointer-events:none !important;
+}
+
+/* Cart quantity badge: anchor snugly to the top-right corner of the icon on phones */
+@media (max-width:560px){
+  .header__cart{position:relative;}
+  .header__cart .cart-count{
+    top:-4px;
+    right:-4px;
+    width:16px;
+    height:16px;
+    font-size:10px;
+    line-height:1;
+  }
+}

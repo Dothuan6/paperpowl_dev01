@@ -205,7 +205,9 @@ document.addEventListener('DOMContentLoaded', function () {
     // Backdrop (mobile only, shown via CSS)
     const backdrop = document.createElement('div');
     backdrop.className = 'cart-backdrop';
-    document.body.appendChild(backdrop);
+    // Append backdrop inside .cart-wrap (same stacking context as the sheet) so the
+    // sheet paints ABOVE the dim layer instead of being covered by it
+    wrap.appendChild(backdrop);
 
     const countEl = top.querySelector('.cart-sheet-count');
     const totalEl = top.querySelector('.cart-sheet-total');
