@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 452" font-family="Nunito, 'Segoe UI', sans-serif">
+  <defs>
+    <linearGradient id="sbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3C6414"/>
+      <stop offset="0.6" stop-color="#175A2E"/>
+      <stop offset="1" stop-color="#145028"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="470" height="452" rx="18" fill="url(#sbg)"/>
+
+  <!-- decorative -->
+  <g opacity="0.10" fill="#FFFFFF">
+    <circle cx="60" cy="60" r="90"/>
+    <circle cx="430" cy="420" r="110"/>
+  </g>
+  <path d="M300 120c26 4 46 24 50 54-30 -2 -50 -24 -50 -54z" fill="#38B04A" opacity="0.55"/>
+
+  <!-- account icon in circle -->
+  <g transform="translate(235,132)">
+    <circle r="58" fill="#F0DCC8"/>
+    <circle r="58" fill="none" stroke="#38B04A" stroke-width="4"/>
+    <circle cx="0" cy="-14" r="20" fill="#145028"/>
+    <path d="M-34 40a34 30 0 0 1 68 0z" fill="#145028"/>
+  </g>
+
+  <!-- eyebrow -->
+  <text x="235" y="232" text-anchor="middle" fill="#9FE6B0" font-size="15" font-weight="800" letter-spacing="2">THÀNH VIÊN PAPERBOWL</text>
+
+  <!-- headline -->
+  <text x="235" y="278" text-anchor="middle" fill="#FFFFFF" font-size="40" font-weight="900">Tạo tài khoản</text>
+  <text x="235" y="316" text-anchor="middle" fill="#F0DCC8" font-size="40" font-weight="900">mua hàng</text>
+
+  <!-- sub -->
+  <text x="235" y="352" text-anchor="middle" fill="#DCEFDD" font-size="16" font-weight="600">Đặt hàng nhanh hơn &amp; nhận ưu đãi riêng</text>
+
+  <!-- CTA -->
+  <g>
+    <rect x="135" y="376" width="200" height="46" rx="23" fill="#38B04A"/>
+    <text x="235" y="405" text-anchor="middle" fill="#FFFFFF" font-size="18" font-weight="800">Đăng ký ngay  ›</text>
+  </g>
+</svg>

@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 410" font-family="Nunito, 'Segoe UI', sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#175A2E"/>
+      <stop offset="0.55" stop-color="#145028"/>
+      <stop offset="1" stop-color="#003C28"/>
+    </linearGradient>
+    <linearGradient id="bowl" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F3E3CE"/>
+      <stop offset="1" stop-color="#D9BE9A"/>
+    </linearGradient>
+    <linearGradient id="lid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBF4E9"/>
+      <stop offset="1" stop-color="#EAD8BE"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="410" rx="18" fill="url(#bg)"/>
+
+  <!-- soft decorative blobs -->
+  <g opacity="0.10" fill="#FFFFFF">
+    <circle cx="700" cy="70" r="150"/>
+    <circle cx="120" cy="380" r="120"/>
+  </g>
+  <!-- leaf watermark -->
+  <g opacity="0.08" fill="#FFFFFF">
+    <path d="M560 250c0-70 60-130 150-150-10 80-60 150-150 150z"/>
+  </g>
+
+  <!-- ===== LEFT TEXT ===== -->
+  <text x="56" y="86" fill="#9FE6B0" font-size="17" font-weight="800" letter-spacing="2">PAPERBOWL · BAO BÌ XANH</text>
+
+  <text x="54" y="150" fill="#FFFFFF" font-size="46" font-weight="900">Đầy đủ hồ sơ</text>
+  <text x="54" y="200" fill="#F0DCC8" font-size="46" font-weight="900">an toàn vệ sinh</text>
+  <text x="54" y="250" fill="#F0DCC8" font-size="46" font-weight="900">thực phẩm</text>
+
+  <text x="56" y="292" fill="#DCEFDD" font-size="18" font-weight="600">Đạt chuẩn an toàn thực phẩm quốc tế</text>
+
+  <!-- badge chips -->
+  <g font-size="14" font-weight="800" fill="#145028">
+    <rect x="56" y="312" width="92" height="34" rx="17" fill="#F0DCC8"/>
+    <text x="102" y="334" text-anchor="middle">ISO 9001</text>
+    <rect x="158" y="312" width="86" height="34" rx="17" fill="#F0DCC8"/>
+    <text x="201" y="334" text-anchor="middle">BRCGS</text>
+    <rect x="254" y="312" width="66" height="34" rx="17" fill="#F0DCC8"/>
+    <text x="287" y="334" text-anchor="middle">FSC</text>
+  </g>
+
+  <!-- CTA button -->
+  <g>
+    <rect x="56" y="360" width="196" height="42" rx="21" fill="#38B04A"/>
+    <text x="154" y="387" text-anchor="middle" fill="#FFFFFF" font-size="17" font-weight="800">Xem chứng nhận  ›</text>
+  </g>
+
+  <!-- ===== RIGHT ILLUSTRATION: kraft bowl + lid + steam + leaf ===== -->
+  <g transform="translate(600,205)">
+    <!-- plate shadow -->
+    <ellipse cx="0" cy="118" rx="150" ry="26" fill="#000000" opacity="0.18"/>
+    <!-- steam -->
+    <g stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.55">
+      <path d="M-34 -96c-14 -14 14 -26 0 -42"/>
+      <path d="M2 -104c-14 -14 14 -26 0 -42"/>
+      <path d="M38 -96c-14 -14 14 -26 0 -42"/>
+    </g>
+    <!-- lid -->
+    <ellipse cx="0" cy="-58" rx="132" ry="30" fill="url(#lid)"/>
+    <ellipse cx="0" cy="-64" rx="132" ry="30" fill="#FBF4E9"/>
+    <ellipse cx="0" cy="-64" rx="96" ry="20" fill="none" stroke="#E0CBAA" stroke-width="3"/>
+    <!-- bowl body -->
+    <path d="M-138 -40 L-118 96 A118 34 0 0 0 118 96 L138 -40 A138 34 0 0 1 -138 -40 Z" fill="url(#bowl)"/>
+    <ellipse cx="0" cy="-40" rx="138" ry="34" fill="#EAD3B4"/>
+    <ellipse cx="0" cy="-40" rx="118" ry="27" fill="#C79C6E" opacity="0.55"/>
+    <!-- kraft band -->
+    <path d="M-128 6 A128 30 0 0 0 128 6 L124 34 A124 30 0 0 1 -124 34 Z" fill="#175A2E" opacity="0.9"/>
+    <text x="0" y="30" text-anchor="middle" fill="#F0DCC8" font-size="15" font-weight="900" letter-spacing="1">ECO FRIENDLY</text>
+    <!-- leaf accent -->
+    <path d="M150 -70c34 4 58 30 62 66-38 -2 -64 -28 -62 -66z" fill="#38B04A"/>
+    <path d="M156 -60c22 8 36 26 40 50" stroke="#175A2E" stroke-width="3" fill="none"/>
+  </g>
+</svg>
