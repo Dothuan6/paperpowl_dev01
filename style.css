@@ -51,7 +51,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
 .center{text-align:center;}
 
 /* ---------- Header (white bar, green accents) ---------- */
-.header{background:#fff;position:sticky;top:0;z-index:300;border-bottom:1px solid #e6e6e0;box-shadow:0 2px 10px rgba(0,0,0,.06);}
+.header{background:linear-gradient(to right,#c8e2cd 0%,#c8e2cd 70%,#edf6ee 100%);position:sticky;top:0;z-index:300;border-bottom:1px solid #e6e6e0;box-shadow:0 2px 10px rgba(0,0,0,.06);}
 .header__inner{display:flex;align-items:center;gap:16px;padding:8px 16px;}
 .logo{flex-shrink:0;}
 .logo img{height:56px;width:auto;}
@@ -159,7 +159,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
 .certs{background:#f7f8fa;}
 
 /* ---------- Flash / Shock price ---------- */
-.flash__bar{background:var(--orange);border-radius:16px 16px 0 0;padding:16px 30px;display:flex;align-items:center;gap:18px;}
+.flash__bar{background:linear-gradient(to right,#0f3d1f 0%,var(--orange) 80%,#2c7d43 100%);border-radius:16px 16px 0 0;padding:16px 30px;display:flex;align-items:center;gap:18px;}
 .flash__title{display:flex;align-items:center;gap:16px;}
 .flash__title img{height:34px;animation:pulse 1.6s infinite;}
 .countdown{display:flex;align-items:center;gap:4px;}
@@ -171,7 +171,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
 
 /* row carousel with hover arrows */
 .row-carousel{position:relative;}
-.flash .row-carousel{background:var(--orange);padding:22px 30px 30px;border-radius:0 0 16px 16px;}
+.flash .row-carousel{background:linear-gradient(to right,#0f3d1f 0%,var(--orange) 80%,#2c7d43 100%);padding:22px 30px 30px;border-radius:0 0 16px 16px;}
 .row-nav{position:absolute;top:50%;transform:translateY(-50%) scale(.85);z-index:6;width:48px;height:48px;border-radius:50%;background:var(--orange);color:#fff;font-size:26px;line-height:1;display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow-hover);opacity:0;visibility:hidden;transition:opacity .25s ease,transform .25s ease,background .2s;}
 .row-carousel:hover .row-nav{opacity:1;visibility:visible;transform:translateY(-50%) scale(1);}
 .row-nav:hover{background:var(--orange-dark);}
@@ -237,7 +237,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
 .btn-buy:active{transform:scale(.97);}
 
 /* ---------- Công nợ ---------- */
-.congno{background:#EFE2D0;}
+.congno{background:linear-gradient(to top,#c8e2cd 0%,#edf6ee 100%);}
 .congno__inner{display:flex;align-items:center;gap:44px;flex-wrap:wrap;}
 .congno__img{flex:1;min-width:300px;text-align:center;}
 .congno__img img{max-width:440px;margin:0 auto;}
@@ -316,7 +316,7 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
 .greviews__foot .btn-buy{width:auto;padding:12px 30px;}
 
 /* ---------- Footer ---------- */
-.footer{background:#EFE2D0;color:#4a4a4a;padding-top:44px;font-size:13.5px;}
+.footer{background:linear-gradient(to top,#c8e2cd 0%,#edf6ee 100%);color:#4a4a4a;padding-top:44px;font-size:13.5px;}
 .footer__grid{display:grid;grid-template-columns:1.7fr 1fr 1fr 1.1fr;gap:30px;padding-bottom:34px;}
 .footer h4{color:#2b2b2b;font-size:16px;margin-bottom:16px;font-weight:700;}
 .footer p{margin-bottom:10px;line-height:1.7;}
